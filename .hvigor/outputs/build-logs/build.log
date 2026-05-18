@@ -1,0 +1,916 @@
+[2026-05-12T17:44:28.770] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-05-12T17:44:29.332] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: false,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-05-12T17:44:32.760] [DEBUG] debug-file - hvigorfile, require result:  { default: { system: [Function: appTasks], plugins: [] } }
+[2026-05-12T17:44:33.009] [DEBUG] debug-file - App plugin register hook start...
+[2026-05-12T17:44:33.012] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2026-05-12T17:44:33.020] [DEBUG] debug-file - Obtain build option for product 'default'in this build.
+[2026-05-12T17:44:33.038] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2026-05-12T17:44:32.763] [DEBUG] debug-file - Starting plugin build process
+[2026-05-12T17:44:33.101] [DEBUG] debug-file - Project task initialization takes 12 ms 
+[2026-05-12T17:44:33.141] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-05-12T17:44:33.118] [DEBUG] debug-file - failed to load cangjie to dynamically generate schemas: Error: Cannot find module '@ohos/cangjie-build-support/index'
+Require stack:
+- C:\Program Files\Huawei\DevEco Studio.1\tools\hvigor\hvigor-ohos-plugin\src\plugin\hooks\cangjie-register.js
+- C:\Program Files\Huawei\DevEco Studio.1\tools\hvigor\hvigor-ohos-plugin\src\plugin\strategy\stage-init-strategy.js
+- C:\Program Files\Huawei\DevEco Studio.1\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\abstract-plugin-builder.js
+- C:\Program Files\Huawei\DevEco Studio.1\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js
+- C:\Program Files\Huawei\DevEco Studio.1\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js
+- C:\Program Files\Huawei\DevEco Studio.1\tools\hvigor\hvigor-ohos-plugin\index.js
+- C:\Users\lenovo\Desktop\avplayer-long-video-master\hvigorfile.ts
+- C:\Program Files\Huawei\DevEco Studio.1\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js
+- C:\Program Files\Huawei\DevEco Studio.1\tools\hvigor\hvigor\src\base\boot\index.js
+- C:\Program Files\Huawei\DevEco Studio.1\tools\hvigor\hvigor\src\cli\main\cli.js
+- C:\Program Files\Huawei\DevEco Studio.1\tools\hvigor\hvigor\bin\hvigor.js
+[2026-05-12T17:44:33.152] [DEBUG] debug-file - project has submodules:entry
+[2026-05-12T17:44:28.771] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '5.0.0',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: {},
+  nodeOptions: {}
+}
+[2026-05-12T17:44:33.155] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2026-05-12T17:44:33.172] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-05-12T17:44:33.188] [DEBUG] debug-file - entry : clean cost memory 0.11205291748046875
+[2026-05-12T17:44:33.224] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2026-05-12T17:44:29.333] [DEBUG] debug-file - Since current hvigor version 6.22.4 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2026-05-12T17:44:32.760] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: appTasks]
+[2026-05-12T17:44:33.009] [DEBUG] debug-file - App plugin register hook end...
+[2026-05-12T17:44:33.022] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2026-05-12T17:44:33.012] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2026-05-12T17:44:33.087] [DEBUG] debug-file - Sdk init in 62 ms 
+[2026-05-12T17:44:32.763] [DEBUG] debug-file - App plugin prepare start...
+[2026-05-12T17:44:33.101] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-05-12T17:44:33.141] [DEBUG] debug-file - Target 'default' config initialized
+[2026-05-12T17:44:28.774] [DEBUG] debug-file - env: daemon=false
+[2026-05-12T17:44:33.162] [DEBUG] debug-file - load to the disk finished
+[2026-05-12T17:44:33.176] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2026-05-12T17:44:33.188] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 867 ms 
+[2026-05-12T17:44:33.227] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2026-05-12T17:44:29.333] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2026-05-12T17:44:33.009] [DEBUG] debug-file - Plugin build process completed
+[2026-05-12T17:44:33.027] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2026-05-12T17:44:33.013] [DEBUG] debug-file - Product 'default' build option initialized
+[2026-05-12T17:44:32.763] [DEBUG] debug-file - App plugin prepare end...
+[2026-05-12T17:44:33.101] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\lenovo\Desktop\avplayer-long-video-master\hvigorfile.ts
+[2026-05-12T17:44:28.774] [DEBUG] debug-file - no-daemon, use the parent process.execArgv --max-old-space-size=8192,--max-semi-space-size=16,--expose-gc
+[2026-05-12T17:44:33.142] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-05-12T17:44:33.189] [INFO] debug-file - Finished :entry:clean... after 4 ms 
+[2026-05-12T17:44:33.165] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-05-12T17:44:33.177] [DEBUG] debug-file - Module entry's total dependency: 0
+[2026-05-12T17:44:29.335] [DEBUG] debug-file - hvigorfile, resolving C:\Users\lenovo\Desktop\avplayer-long-video-master\hvigorfile.ts
+[2026-05-12T17:44:33.230] [DEBUG] debug-file - Current worker pool is stopped or closed.
+[2026-05-12T17:44:33.032] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2026-05-12T17:44:33.013] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2026-05-12T17:44:32.763] [DEBUG] debug-file - App plugin creating...
+[2026-05-12T17:44:33.101] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\lenovo\Desktop\avplayer-long-video-master\hvigorfile.ts
+[2026-05-12T17:44:33.190] [DEBUG] debug-file - Executing task ::clean
+[2026-05-12T17:44:33.142] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-05-12T17:44:33.169] [DEBUG] debug-file - Module avplayer-long-video-master Collected Dependency: 
+[2026-05-12T17:44:33.181] [DEBUG] debug-file - Configuration phase cost:3 s 847 ms 
+[2026-05-12T17:44:33.230] [DEBUG] debug-file - Clear worker 0.
+[2026-05-12T17:44:33.102] [DEBUG] debug-file - hvigorfile, resolving C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\hvigorfile.ts
+[2026-05-12T17:44:33.142] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=release
+[2026-05-12T17:44:33.190] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2026-05-12T17:44:33.169] [DEBUG] debug-file - Module avplayer-long-video-master's total dependency: 0
+[2026-05-12T17:44:33.184] [DEBUG] debug-file - Configuration task cost before running: 3 s 863 ms 
+[2026-05-12T17:44:33.112] [DEBUG] debug-file - hvigorfile, require result:  { default: { system: [Function: hapTasks], plugins: [] } }
+[2026-05-12T17:44:33.230] [DEBUG] debug-file - Worker 0 has been cleared.
+[2026-05-12T17:44:33.142] [DEBUG] debug-file - Target 'default' config initialized
+[2026-05-12T17:44:33.190] [DEBUG] debug-file - avplayer-long-video-master : clean cost memory 0.020233154296875
+[2026-05-12T17:44:33.185] [DEBUG] debug-file - Executing task :entry:clean
+[2026-05-12T17:44:33.112] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: hapTasks]
+[2026-05-12T17:44:33.230] [DEBUG] debug-file - Current idle worker size: 1.
+[2026-05-12T17:44:33.143] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-05-12T17:44:33.190] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 870 ms 
+[2026-05-12T17:44:33.185] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2026-05-12T17:44:33.113] [DEBUG] debug-file - Starting plugin build process
+[2026-05-12T17:44:33.230] [DEBUG] debug-file - Current busy worker size: 0.
+[2026-05-12T17:44:33.143] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-05-12T17:44:33.191] [INFO] debug-file - Finished ::clean... after 1 ms 
+[2026-05-12T17:44:33.113] [DEBUG] debug-file - Hap plugin creating...
+[2026-05-12T17:44:33.230] [DEBUG] debug-file - Clear worker 1.
+[2026-05-12T17:44:33.143] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-05-12T17:44:33.191] [DEBUG] debug-file - Executing task :entry:init
+[2026-05-12T17:44:33.230] [DEBUG] debug-file - Worker 1 has been cleared.
+[2026-05-12T17:44:33.143] [DEBUG] debug-file - Target 'default' config initialized
+[2026-05-12T17:44:33.191] [DEBUG] debug-file - entry : init cost memory 0.01265716552734375
+[2026-05-12T17:44:33.230] [DEBUG] debug-file - Current idle worker size: 0.
+[2026-05-12T17:44:33.143] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-05-12T17:44:33.191] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 871 ms 
+[2026-05-12T17:44:33.230] [DEBUG] debug-file - Current busy worker size: 0.
+[2026-05-12T17:44:33.192] [INFO] debug-file - Finished :entry:init... after 1 ms 
+[2026-05-12T17:44:33.143] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-05-12T17:44:33.232] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-05-12T17:44:33.192] [DEBUG] debug-file - Executing task ::init
+[2026-05-12T17:44:33.144] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2026-05-12T17:44:33.240] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2026-05-12T17:44:33.192] [DEBUG] debug-file - avplayer-long-video-master : init cost memory 0.01141357421875
+[2026-05-12T17:44:33.150] [DEBUG] debug-file - Module entry task initialization takes 5 ms 
+[2026-05-12T17:44:33.243] [DEBUG] debug-file - Current worker pool is terminated.
+[2026-05-12T17:44:33.192] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 871 ms 
+[2026-05-12T17:44:33.150] [DEBUG] debug-file - Hap plugin register hook start...
+[2026-05-12T17:44:33.243] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2026-05-12T17:44:33.192] [INFO] debug-file - Finished ::init... after 1 ms 
+[2026-05-12T17:44:33.150] [DEBUG] debug-file - Hap plugin register hook end...
+[2026-05-12T17:44:33.206] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2026-05-12T17:44:33.150] [DEBUG] debug-file - Plugin build process completed
+[2026-05-12T17:44:33.219] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2026-05-12T17:44:33.150] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-05-12T17:44:33.219] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2026-05-12T17:44:33.150] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\hvigorfile.ts
+[2026-05-12T17:44:33.150] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\hvigorfile.ts
+[2026-05-12T17:45:50.458] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2026-05-12T17:45:50.542] [DEBUG] debug-file - env: daemon=true
+[2026-05-12T17:45:50.460] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '5.0.0',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: {},
+  nodeOptions: {}
+}
+[2026-05-12T17:45:51.650] [DEBUG] debug-file - java daemon tryConnect failed Error: connect ECONNREFUSED 127.0.0.1:45050
+[2026-05-12T17:45:51.659] [DEBUG] debug-file - java daemon started at port 45050 pid 16868
+[2026-05-12T17:45:51.698] [DEBUG] debug-file - session manager: set active socket. socketId=xQFgJSLNDDuiXs7LAAAB
+[2026-05-12T17:45:53.045] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-05-12T17:45:53.055] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2026-05-12T17:45:53.056] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2026-05-12T17:45:53.057] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2026-05-12T17:45:53.061] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2026-05-12T17:45:53.063] [DEBUG] debug-file - Workers' log level updated to INFO
+[2026-05-12T17:45:53.074] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },
+  optimizationStrategy: 'memory',
+  hotCompile: undefined,
+  hotReloadBuild: undefined,
+  customizedParam: undefined
+}
+[2026-05-12T17:45:53.076] [DEBUG] debug-file - Cache service initialization finished in 2 ms 
+[2026-05-12T17:45:53.079] [DEBUG] debug-file - hvigorfile, resolving C:\Users\lenovo\Desktop\avplayer-long-video-master\hvigorfile.ts
+[2026-05-12T17:45:55.859] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-05-12T17:45:55.860] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-05-12T17:45:55.860] [DEBUG] debug-file - Starting plugin build process
+[2026-05-12T17:45:55.860] [DEBUG] debug-file - App plugin prepare start...
+[2026-05-12T17:45:55.861] [DEBUG] debug-file - App plugin prepare end...
+[2026-05-12T17:45:55.861] [DEBUG] debug-file - App plugin creating...
+[2026-05-12T17:45:56.057] [DEBUG] debug-file - App plugin register hook start...
+[2026-05-12T17:45:56.058] [DEBUG] debug-file - App plugin register hook end...
+[2026-05-12T17:45:56.058] [DEBUG] debug-file - Plugin build process completed
+[2026-05-12T17:45:56.059] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2026-05-12T17:45:56.059] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2026-05-12T17:45:56.060] [DEBUG] debug-file - Product 'default' build option initialized
+[2026-05-12T17:45:56.060] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2026-05-12T17:45:56.062] [DEBUG] debug-file - Obtain build option for product 'default'in this build.
+[2026-05-12T17:45:56.064] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2026-05-12T17:45:56.066] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2026-05-12T17:45:56.072] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2026-05-12T17:45:56.074] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2026-05-12T17:45:56.107] [DEBUG] debug-file - Sdk init in 43 ms 
+[2026-05-12T17:45:56.114] [DEBUG] debug-file - Project task initialization takes 6 ms 
+[2026-05-12T17:45:56.114] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-05-12T17:45:56.115] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\lenovo\Desktop\avplayer-long-video-master\hvigorfile.ts
+[2026-05-12T17:45:56.115] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\lenovo\Desktop\avplayer-long-video-master\hvigorfile.ts
+[2026-05-12T17:45:56.116] [DEBUG] debug-file - hvigorfile, resolving C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\hvigorfile.ts
+[2026-05-12T17:45:56.123] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2026-05-12T17:45:56.123] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2026-05-12T17:45:56.123] [DEBUG] debug-file - Starting plugin build process
+[2026-05-12T17:45:56.123] [DEBUG] debug-file - Hap plugin creating...
+[2026-05-12T17:45:56.126] [DEBUG] debug-file - failed to load cangjie to dynamically generate schemas: Error: Cannot find module '@ohos/cangjie-build-support/index'
+Require stack:
+- C:\Program Files\Huawei\DevEco Studio.1\tools\hvigor\hvigor-ohos-plugin\src\plugin\hooks\cangjie-register.js
+- C:\Program Files\Huawei\DevEco Studio.1\tools\hvigor\hvigor-ohos-plugin\src\plugin\strategy\stage-init-strategy.js
+- C:\Program Files\Huawei\DevEco Studio.1\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\abstract-plugin-builder.js
+- C:\Program Files\Huawei\DevEco Studio.1\tools\hvigor\hvigor-ohos-plugin\src\plugin\builder\app-plugin-builder.js
+- C:\Program Files\Huawei\DevEco Studio.1\tools\hvigor\hvigor-ohos-plugin\src\plugin\factory\plugin-factory.js
+- C:\Program Files\Huawei\DevEco Studio.1\tools\hvigor\hvigor-ohos-plugin\index.js
+- C:\Users\lenovo\Desktop\avplayer-long-video-master\hvigorfile.ts
+- C:\Program Files\Huawei\DevEco Studio.1\tools\hvigor\hvigor\src\base\internal\lifecycle\configuration.js
+- C:\Program Files\Huawei\DevEco Studio.1\tools\hvigor\hvigor\src\base\boot\index.js
+- C:\Program Files\Huawei\DevEco Studio.1\tools\hvigor\hvigor\src\base\daemon\cluster\worker-process-lifecycle.js
+- C:\Program Files\Huawei\DevEco Studio.1\tools\hvigor\hvigor\src\base\daemon\process\daemon-process-boot-script.js
+[2026-05-12T17:45:56.144] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-05-12T17:45:56.145] [DEBUG] debug-file - Target 'default' config initialized
+[2026-05-12T17:45:56.145] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-05-12T17:45:56.145] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-05-12T17:45:56.145] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=release
+[2026-05-12T17:45:56.146] [DEBUG] debug-file - Target 'default' config initialized
+[2026-05-12T17:45:56.146] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-05-12T17:45:56.147] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-05-12T17:45:56.147] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2026-05-12T17:45:56.147] [DEBUG] debug-file - Target 'default' config initialized
+[2026-05-12T17:45:56.147] [DEBUG] debug-file - Module 'entry' target 'default' build option initialized
+[2026-05-12T17:45:56.147] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2026-05-12T17:45:56.147] [DEBUG] debug-file - Obtain build option for module 'entry' target 'default'in this build.
+[2026-05-12T17:45:56.152] [DEBUG] debug-file - Module entry task initialization takes 4 ms 
+[2026-05-12T17:45:56.152] [DEBUG] debug-file - Hap plugin register hook start...
+[2026-05-12T17:45:56.153] [DEBUG] debug-file - Hap plugin register hook end...
+[2026-05-12T17:45:56.153] [DEBUG] debug-file - Plugin build process completed
+[2026-05-12T17:45:56.153] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2026-05-12T17:45:56.153] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\hvigorfile.ts
+[2026-05-12T17:45:56.153] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\hvigorfile.ts
+[2026-05-12T17:45:56.224] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 71 ms 
+[2026-05-12T17:45:56.225] [DEBUG] debug-file - project has submodules:entry
+[2026-05-12T17:45:56.229] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2026-05-12T17:45:56.240] [DEBUG] debug-file - load to the disk finished
+[2026-05-12T17:45:56.242] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-05-12T17:45:56.245] [DEBUG] debug-file - Module avplayer-long-video-master Collected Dependency: 
+[2026-05-12T17:45:56.245] [DEBUG] debug-file - Module avplayer-long-video-master's total dependency: 0
+[2026-05-12T17:45:56.247] [DEBUG] debug-file - Start to initialize dependency information.
+[2026-05-12T17:45:56.252] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2026-05-12T17:45:56.252] [DEBUG] debug-file - Module entry's total dependency: 0
+[2026-05-12T17:45:56.257] [DEBUG] debug-file - Configuration phase cost:3 s 181 ms 
+[2026-05-12T17:45:56.260] [DEBUG] debug-file - Configuration task cost before running: 3 s 196 ms 
+[2026-05-12T17:45:56.271] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2026-05-12T17:45:56.273] [DEBUG] debug-file - Task 'entry:default@PreBuild' cost while wrapping incremental declarations: 1 ms 
+[2026-05-12T17:45:56.425] [DEBUG] debug-file - current product is not Atomic service.
+[2026-05-12T17:45:56.426] [DEBUG] debug-file - Use tool [win32: JAVA_HOME, CLASSPATH]
+ [
+  { JAVA_HOME: 'C:\\Program Files\\Huawei\\DevEco Studio.1\\jbr' },
+  { CLASSPATH: undefined }
+]
+[2026-05-12T17:45:56.426] [DEBUG] debug-file - Use tool [win32: NODE_HOME]
+ [
+  {
+    NODE_HOME: 'C:\\Program Files\\Huawei\\DevEco Studio.1\\tools\\node'
+  }
+]
+[2026-05-12T17:45:56.427] [DEBUG] debug-file - entry : default@PreBuild cost memory 11.179588317871094
+[2026-05-12T17:45:56.427] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 363 ms 
+[2026-05-12T17:45:56.433] [INFO] debug-file - Finished :entry:default@PreBuild... after 157 ms 
+[2026-05-12T17:45:56.435] [DEBUG] debug-file - Executing task :entry:default@CreateModuleInfo
+[2026-05-12T17:45:56.435] [DEBUG] debug-file - Task 'entry:default@CreateModuleInfo' cost while wrapping incremental declarations: 1 ms 
+[2026-05-12T17:45:56.436] [DEBUG] debug-file - entry : default@CreateModuleInfo cost memory 0.04296112060546875
+[2026-05-12T17:45:56.436] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 372 ms 
+[2026-05-12T17:45:56.436] [INFO] debug-file - Finished :entry:default@CreateModuleInfo... after 2 ms 
+[2026-05-12T17:45:56.438] [DEBUG] debug-file - Executing task :entry:default@GenerateMetadata
+[2026-05-12T17:45:56.439] [DEBUG] debug-file - Task 'entry:default@GenerateMetadata' cost while wrapping incremental declarations: 1 ms 
+[2026-05-12T17:45:56.442] [DEBUG] debug-file - entry : default@GenerateMetadata cost memory 0.0662384033203125
+[2026-05-12T17:45:56.442] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 378 ms 
+[2026-05-12T17:45:56.443] [INFO] debug-file - Finished :entry:default@GenerateMetadata... after 5 ms 
+[2026-05-12T17:45:56.444] [DEBUG] debug-file - Executing task :entry:default@ConfigureCmake
+[2026-05-12T17:45:56.444] [DEBUG] debug-file - entry : default@ConfigureCmake cost memory 0.0144805908203125
+[2026-05-12T17:45:56.445] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 380 ms 
+[2026-05-12T17:45:56.445] [INFO] debug-file - Finished :entry:default@ConfigureCmake... after 1 ms 
+[2026-05-12T17:45:56.447] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2026-05-12T17:45:56.448] [DEBUG] debug-file - Task 'entry:default@MergeProfile' cost while wrapping incremental declarations: 1 ms 
+[2026-05-12T17:45:56.449] [DEBUG] debug-file - Change app api release type with 'Release'
+[2026-05-12T17:45:56.450] [DEBUG] debug-file - Change app compile API version with '6.0.2.130'
+[2026-05-12T17:45:56.450] [DEBUG] debug-file - Change app target API version with '50100018'
+[2026-05-12T17:45:56.450] [DEBUG] debug-file - Change app minimum API version with '50100018'
+[2026-05-12T17:45:56.450] [DEBUG] debug-file - Use cli appEnvironment
+[2026-05-12T17:45:56.453] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.40929412841796875
+[2026-05-12T17:45:56.453] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 389 ms 
+[2026-05-12T17:45:56.454] [INFO] debug-file - Finished :entry:default@MergeProfile... after 7 ms 
+[2026-05-12T17:45:56.455] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
+[2026-05-12T17:45:56.456] [DEBUG] debug-file - Task 'entry:default@CreateBuildProfile' cost while wrapping incremental declarations: 1 ms 
+[2026-05-12T17:45:56.459] [DEBUG] debug-file - entry : default@CreateBuildProfile cost memory 0.068756103515625
+[2026-05-12T17:45:56.459] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 395 ms 
+[2026-05-12T17:45:56.459] [INFO] debug-file - Finished :entry:default@CreateBuildProfile... after 4 ms 
+[2026-05-12T17:45:56.461] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
+[2026-05-12T17:45:56.461] [DEBUG] debug-file - entry : default@PreCheckSyscap cost memory 0.014923095703125
+[2026-05-12T17:45:56.461] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 397 ms 
+[2026-05-12T17:45:56.461] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
+[2026-05-12T17:45:56.464] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgContextInfo
+[2026-05-12T17:45:56.477] [DEBUG] debug-file - Task 'entry:default@GeneratePkgContextInfo' cost while wrapping incremental declarations: 1 ms 
+[2026-05-12T17:45:56.478] [DEBUG] debug-file - entry : default@GeneratePkgContextInfo cost memory 0.47257232666015625
+[2026-05-12T17:45:56.478] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 414 ms 
+[2026-05-12T17:45:56.478] [INFO] debug-file - Finished :entry:default@GeneratePkgContextInfo... after 14 ms 
+[2026-05-12T17:45:56.484] [DEBUG] debug-file - Executing task :entry:default@ProcessIntegratedHsp
+[2026-05-12T17:45:56.485] [DEBUG] debug-file - entry : default@ProcessIntegratedHsp cost memory 0.030517578125
+[2026-05-12T17:45:56.485] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 421 ms 
+[2026-05-12T17:45:56.485] [INFO] debug-file - Finished :entry:default@ProcessIntegratedHsp... after 1 ms 
+[2026-05-12T17:45:56.488] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithCmake
+[2026-05-12T17:45:56.488] [DEBUG] debug-file - entry : default@BuildNativeWithCmake cost memory 0.014862060546875
+[2026-05-12T17:45:56.488] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 424 ms 
+[2026-05-12T17:45:56.488] [INFO] debug-file - Finished :entry:default@BuildNativeWithCmake... after 1 ms 
+[2026-05-12T17:45:56.491] [DEBUG] debug-file - Executing task :entry:default@MakePackInfo
+[2026-05-12T17:45:56.493] [DEBUG] debug-file - Module Pack Info:  {
+  summary: {
+    app: { bundleName: 'c***o', bundleType: 'app', version: [Object] },
+    modules: [ [Object] ]
+  },
+  packages: [
+    {
+      deviceType: [Array],
+      moduleType: 'entry',
+      deliveryWithInstall: true,
+      name: 'entry-default'
+    }
+  ]
+}
+[2026-05-12T17:45:56.523] [DEBUG] debug-file - entry : default@MakePackInfo cost memory 0.10767364501953125
+[2026-05-12T17:45:56.524] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 459 ms 
+[2026-05-12T17:45:56.524] [INFO] debug-file - Finished :entry:default@MakePackInfo... after 33 ms 
+[2026-05-12T17:45:56.527] [DEBUG] debug-file - Executing task :entry:default@SyscapTransform
+[2026-05-12T17:45:56.528] [DEBUG] debug-file - File: 'C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\src\main\syscap.json' from 'sysCapJsonPath' is not exists, just ignore.
+[2026-05-12T17:45:56.530] [DEBUG] debug-file - Task 'entry:default@SyscapTransform' cost while wrapping incremental declarations: 3 ms 
+[2026-05-12T17:45:56.532] [DEBUG] debug-file - entry : default@SyscapTransform cost memory 0.0583648681640625
+[2026-05-12T17:45:56.532] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 468 ms 
+[2026-05-12T17:45:56.532] [INFO] debug-file - Finished :entry:default@SyscapTransform... after 5 ms 
+[2026-05-12T17:45:56.535] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2026-05-12T17:45:56.536] [DEBUG] debug-file - Task 'entry:default@ProcessProfile' cost while wrapping incremental declarations: 1 ms 
+[2026-05-12T17:45:56.538] [DEBUG] debug-file - [
+  'C:\\Program Files\\Huawei\\DevEco Studio.1\\tools\\node\\node.exe',
+  'C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\bin\\ark\\ts2abc.js',
+  '--target-api-version',
+  '18'
+]
+[2026-05-12T17:45:56.665] [DEBUG] debug-file - 13.0.1.0
+[2026-05-12T17:45:56.695] [DEBUG] debug-file - No need to add fake ui ability because of not in preview process.
+[2026-05-12T17:45:56.697] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 1.9533233642578125
+[2026-05-12T17:45:56.697] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 633 ms 
+[2026-05-12T17:45:56.697] [INFO] debug-file - Finished :entry:default@ProcessProfile... after 162 ms 
+[2026-05-12T17:45:56.699] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
+[2026-05-12T17:45:56.704] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.0896759033203125
+[2026-05-12T17:45:56.704] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 640 ms 
+[2026-05-12T17:45:56.705] [INFO] debug-file - Finished :entry:default@ProcessRouterMap... after 6 ms 
+[2026-05-12T17:45:56.707] [DEBUG] debug-file - Executing task :entry:default@ProcessShareConfig
+[2026-05-12T17:45:56.710] [DEBUG] debug-file - entry : default@ProcessShareConfig cost memory 0.0704803466796875
+[2026-05-12T17:45:56.710] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 646 ms 
+[2026-05-12T17:45:56.711] [INFO] debug-file - Finished :entry:default@ProcessShareConfig... after 4 ms 
+[2026-05-12T17:45:56.712] [DEBUG] debug-file - Executing task :entry:default@ProcessStartupConfig
+[2026-05-12T17:45:56.712] [DEBUG] debug-file - Task 'entry:default@ProcessStartupConfig' cost while wrapping incremental declarations: 1 ms 
+[2026-05-12T17:45:56.714] [DEBUG] debug-file - entry : default@ProcessStartupConfig cost memory 0.0640106201171875
+[2026-05-12T17:45:56.714] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 650 ms 
+[2026-05-12T17:45:56.714] [INFO] debug-file - Finished :entry:default@ProcessStartupConfig... after 2 ms 
+[2026-05-12T17:45:56.715] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithNinja
+[2026-05-12T17:45:56.717] [DEBUG] debug-file - entry : default@BuildNativeWithNinja cost memory 0.02823638916015625
+[2026-05-12T17:45:56.718] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 653 ms 
+[2026-05-12T17:45:56.718] [INFO] debug-file - Finished :entry:default@BuildNativeWithNinja... after 3 ms 
+[2026-05-12T17:45:56.720] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@ProcessResource
+[2026-05-12T17:45:56.723] [DEBUG] debug-file - Executing task :entry:default@ProcessResource
+[2026-05-12T17:45:56.723] [DEBUG] debug-file - Task 'entry:default@ProcessResource' cost while wrapping incremental declarations: 1 ms 
+[2026-05-12T17:45:56.729] [DEBUG] debug-file - entry : default@ProcessResource cost memory -10.61273193359375
+[2026-05-12T17:45:56.730] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 666 ms 
+[2026-05-12T17:45:56.732] [INFO] debug-file - Finished :entry:default@ProcessResource... after 9 ms 
+[2026-05-12T17:45:56.735] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2026-05-12T17:45:56.735] [DEBUG] debug-file - Task 'entry:default@GenerateLoaderJson' cost while wrapping incremental declarations: 1 ms 
+[2026-05-12T17:45:56.751] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory 0.7877426147460938
+[2026-05-12T17:45:56.751] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 687 ms 
+[2026-05-12T17:45:56.756] [INFO] debug-file - Finished :entry:default@GenerateLoaderJson... after 17 ms 
+[2026-05-12T17:45:56.758] [DEBUG] debug-file - Executing task :entry:default@ProcessLibs
+[2026-05-12T17:45:56.765] [DEBUG] debug-file - Worker dispatch failed, running processLibs on main thread.
+[2026-05-12T17:45:56.767] [DEBUG] debug-file - entry : default@ProcessLibs cost memory 0.29134368896484375
+[2026-05-12T17:45:56.767] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 703 ms 
+[2026-05-12T17:45:56.768] [INFO] debug-file - Finished :entry:default@ProcessLibs... after 10 ms 
+[2026-05-12T17:45:56.770] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@CompileResource
+[2026-05-12T17:45:56.771] [DEBUG] debug-file - Executing task :entry:default@CompileResource
+[2026-05-12T17:45:56.876] [DEBUG] debug-file - Use tool [C:\Program Files\Huawei\DevEco Studio.1\sdk\default\openharmony\toolchains\restool.exe]
+ [
+  'C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\openharmony\\toolchains\\restool.exe',
+  '-l',
+  'C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\build\\default\\intermediates\\res\\default\\resConfig.json'
+]
+[2026-05-12T17:45:56.878] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 292052992,
+  heapTotal: 182439936,
+  heapUsed: 161011552,
+  external: 3437231,
+  arrayBuffers: 536042
+} os memoryUsage :15.926246643066406
+[2026-05-12T17:45:56.957] [DEBUG] debug-file - Info: Pack: normal pack mode
+
+[2026-05-12T17:45:57.020] [DEBUG] debug-file - Info: hardware concurrency count is : 24
+Info: thread count is : 24
+
+[2026-05-12T17:45:57.021] [DEBUG] debug-file - Info: thread pool is started
+
+[2026-05-12T17:45:57.023] [DEBUG] debug-file - Info: GenericCompiler::CompileFiles
+
+[2026-05-12T17:45:57.039] [DEBUG] debug-file - Info: GenericCompiler::CompileFiles
+
+[2026-05-12T17:45:57.040] [DEBUG] debug-file - Warning: 'C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\src\main\resources\base\media\app_icon.png' is defined repeatedly.
+
+[2026-05-12T17:45:57.057] [DEBUG] debug-file - Info: GenericCompiler::CompileFiles
+
+[2026-05-12T17:45:57.066] [DEBUG] debug-file - 05-12 17:45:57.066 17860 19988 E C01400/ImageTranscoderUtils: DecodeToRGBA IN
+05-12 17:45:57.066 17860 19988 E C01400/ImageTranscoderUtils: ImageFilter IN C:\Users\lenovo\Desktop\avplayer-long-video-master\AppScope\resources\base\media\app_icon.png
+
+[2026-05-12T17:45:57.068] [DEBUG] debug-file - 05-12 17:45:57.069 17860 19988 E C01400/ImageTranscoder: TranscodeSLR Only zoom-out is supported.
+Warning: ScaleImage failed, error message: INVALID_PARAMETERS, file path = C:\Users\lenovo\Desktop\avplayer-long-video-master\AppScope\resources\base\media\app_icon.png
+
+[2026-05-12T17:45:57.070] [DEBUG] debug-file - 05-12 17:45:57.070 17860 19988 E C01400/ImageTranscoderUtils: DecodeToRGBA IN
+05-12 17:45:57.070 17860 19988 E C01400/ImageTranscoderUtils: ImageFilter IN C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\src\main\resources\base\media\background.png
+
+[2026-05-12T17:45:57.073] [DEBUG] debug-file - 05-12 17:45:57.074 17860 19988 E C01400/ImageTranscoder: TranscodeSLR Only zoom-out is supported.
+
+[2026-05-12T17:45:57.074] [DEBUG] debug-file - Warning: ScaleImage failed, error message: INVALID_PARAMETERS, file path = C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\src\main\resources\base\media\background.png
+
+[2026-05-12T17:45:57.075] [DEBUG] debug-file - 05-12 17:45:57.075 17860 19988 E C01400/ImageTranscoderUtils: DecodeToRGBA IN
+05-12 17:45:57.075 17860 19988 E C01400/ImageTranscoderUtils: ImageFilter IN C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\src\main\resources\base\media\foreground.png
+
+[2026-05-12T17:45:57.076] [DEBUG] debug-file - 05-12 17:45:57.076 17860 19988 E C01400/ImageTranscoder: TranscodeSLR Only zoom-out is supported.
+
+[2026-05-12T17:45:57.076] [DEBUG] debug-file - Warning: ScaleImage failed, error message: INVALID_PARAMETERS, file path = C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\src\main\resources\base\media\foreground.png
+
+[2026-05-12T17:45:57.077] [DEBUG] debug-file - Info: can't scale media json file.
+
+[2026-05-12T17:45:57.077] [DEBUG] debug-file - Warning: The width or height of the png file referenced by the icon exceeds the limit (41 pixels)
+at C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\src\main\resources\base\media\background.png
+
+[2026-05-12T17:45:57.077] [DEBUG] debug-file - Warning: The width or height of the png file referenced by the icon exceeds the limit (41 pixels)
+at C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\src\main\resources\base\media\foreground.png
+Warning: C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\src\main\resources\base\media\layered_image.json is not png format
+
+[2026-05-12T17:45:57.080] [DEBUG] debug-file - Info: restool resources compile success.
+
+[2026-05-12T17:45:57.081] [DEBUG] debug-file - Info: thread pool is stopped
+
+[2026-05-12T17:45:57.143] [DEBUG] debug-file - entry : default@CompileResource cost memory -25.81744384765625
+[2026-05-12T17:45:57.144] [DEBUG] debug-file - runTaskFromQueue task cost before running: 4 s 79 ms 
+[2026-05-12T17:45:57.145] [INFO] debug-file - Finished :entry:default@CompileResource... after 373 ms 
+[2026-05-12T17:45:57.147] [DEBUG] debug-file - Executing task :entry:default@DoNativeStrip
+[2026-05-12T17:45:57.147] [DEBUG] debug-file - Task 'entry:default@DoNativeStrip' cost while wrapping incremental declarations: 1 ms 
+[2026-05-12T17:45:57.151] [DEBUG] debug-file - entry : default@DoNativeStrip cost memory 0.06415557861328125
+[2026-05-12T17:45:57.151] [DEBUG] debug-file - runTaskFromQueue task cost before running: 4 s 87 ms 
+[2026-05-12T17:45:57.152] [INFO] debug-file - Finished :entry:default@DoNativeStrip... after 5 ms 
+[2026-05-12T17:45:57.154] [DEBUG] debug-file - Executing task :entry:default@CompileArkTS
+[2026-05-12T17:45:57.155] [DEBUG] debug-file - obfuscationOptions: undefined
+[2026-05-12T17:45:57.157] [DEBUG] debug-file - Task 'entry:default@CompileArkTS' cost while wrapping incremental declarations: 1 ms 
+[2026-05-12T17:45:57.185] [DEBUG] debug-file - build config:
+[2026-05-12T17:45:57.185] [DEBUG] debug-file - {
+  moduleType: 'entry',
+  perf: 0,
+  targetName: '.default',
+  packageManagerType: 'ohpm',
+  localPropertiesPath: 'C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\local.properties',
+  isPreview: false,
+  isOhosTest: false,
+  isLocalTest: false,
+  buildMode: 'Debug',
+  hotReloadBuild: undefined,
+  watchMode: 'false',
+  aceProfilePath: 'C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile',
+  etsLoaderPath: 'C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader',
+  modulePath: 'C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry',
+  testFrameworkPar: {
+    testMode: undefined,
+    coveragePathFilter: undefined,
+    coverageMode: undefined
+  },
+  needCoverageInsert: false,
+  debugLine: false,
+  projectTopDir: 'C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master',
+  compileSdkVersion: 22,
+  compatibleSdkVersion: 18,
+  originCompatibleSdkVersion: '5.1.0(18)',
+  compatibleSdkVersionStage: undefined,
+  bundleName: 'c***o',
+  etsLoaderVersion: '6.0.2.130',
+  etsLoaderReleaseType: 'Release',
+  aotCompileMode: 'type',
+  apPath: 'C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\modules.ap',
+  entryModuleName: 'entry',
+  entryModuleVersion: '1.0.0',
+  entryPackageName: 'entry',
+  allModuleNameHash: 'd31c8f293f72e1ce11526b702bd49a2446573b5b519d240b328d0fdd7f1ce00c',
+  externalApiPaths: [
+    'C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\hms\\ets'
+  ],
+  compilerTypes: [],
+  isCrossplatform: false,
+  hvigorPluginFile: undefined,
+  compilePluginPath: undefined,
+  buildGeneratedProfilePath: 'C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\build\\default\\generated\\profile\\default',
+  bundleType: 'app',
+  arkTSVersion: undefined,
+  apiVersion: 22,
+  needCompleteSourcesMap: false,
+  isFaMode: false,
+  buildDir: 'C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\build',
+  deviceTypes: [ 'phone' ],
+  pkgContextInfo: undefined,
+  ohPackagePathMap: {},
+  dependencyAliasMap: {},
+  permission: { requestPermissions: [ [Object] ], definePermissions: undefined },
+  useGetCurrentBundleName: false,
+  projectArkOption: undefined,
+  sourceMapDir: undefined,
+  branchElimination: false,
+  transformLib: undefined,
+  tsImportSendable: false,
+  resolveConflictMode: true,
+  depName2RootPath: {},
+  depName2DepInfo: {},
+  rootPathSet: [ 'C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master' ],
+  useNativeResolver: true,
+  shouldEmitJs: true,
+  useTscResolve: false,
+  singleFileEmit: false,
+  userProjectConfig: {
+    autoLazyImport: false,
+    allowEmptyBundleName: false,
+    reExportCheckMode: 'noCheck',
+    executionMode: 'memory',
+    usePathPlaceholder: false,
+    writeRollupCache: true,
+    isExpandImportEnabled: false,
+    expandImportExclude: '',
+    lazyImportExclude: '',
+    lazyImportInclude: '',
+    ignoreCrossplatformCheck: false,
+    isHarDeduplicateEnabled: false,
+    skipOhModulesLint: false,
+    enableStrictCheckOHModule: false,
+    disableSendableCheckRules: [],
+    useDeclarationFileSignature: false,
+    customizedOptions: undefined,
+    integratedHsp: false,
+    isPreloadSoEnabled: false
+  },
+  executionMode: 'memory',
+  arkCompileCachePath: 'C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule',
+  autoLazyFilter: undefined,
+  isHarDeduplicateEnabled: false,
+  intermediateHarDuplicateDirPath: 'C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\build\\default\\intermediates\\har_duplicate\\default',
+  autoLazyImport: false,
+  allowEmptyBundleName: false,
+  reExportCheckMode: 'noCheck',
+  usePathPlaceholder: false,
+  writeRollupCache: true,
+  isExpandImportEnabled: false,
+  expandImportExclude: '',
+  lazyImportExclude: '',
+  lazyImportInclude: '',
+  ignoreCrossplatformCheck: false,
+  skipOhModulesLint: false,
+  enableStrictCheckOHModule: false,
+  disableSendableCheckRules: [],
+  useDeclarationFileSignature: false,
+  customizedOptions: undefined,
+  integratedHsp: false,
+  isPreloadSoEnabled: false,
+  strictMode: undefined,
+  useNormalizedOHMUrl: false,
+  caseSensitiveCheck: false,
+  aceModuleJsonPath: 'C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\build\\default\\intermediates\\res\\default\\ark_module.json',
+  appResource: 'C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\build\\default\\intermediates\\res\\default\\ResourceTable.txt',
+  rawFileResource: 'C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\build\\default\\intermediates\\res\\default\\resources\\rawfile',
+  resourceTableHash: '7c4e92fa01b0b746dff63d85ba03ce2a4aa4d7f773c7ed98477c9a0d85829d52',
+  runtimeOS: 'HarmonyOS',
+  sdkInfo: 'false:22:6.0.2.130:Release',
+  aceModuleRoot: 'C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\ets',
+  compileMode: 'esmodule',
+  aceSuperVisualPath: 'C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\supervisual',
+  aceBuildJson: 'C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\build\\default\\intermediates\\loader\\default\\loader.json',
+  cachePath: 'C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule\\debug',
+  aceModuleBuild: 'C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\build\\default\\intermediates\\loader_out\\default\\ets',
+  supportChunks: true,
+  declaredFilesPath: undefined,
+  shouldCollectDirectImportees: false,
+  isByteCodeHarOptimize: false,
+  expandImportPath: undefined,
+  pkgNameToPkgBriefInfo: {
+    entry: {
+      pkgRoot: 'C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry',
+      originalSourceRoots: undefined,
+      sourceRoots: [Array],
+      pkgName: 'entry'
+    }
+  },
+  projectModel: {
+    'C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main': {
+      moduleName: 'entry',
+      modulePkgPath: 'C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry',
+      belongProjectPath: 'C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master'
+    },
+    'C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry': {
+      moduleName: 'entry',
+      modulePkgPath: 'C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry',
+      belongProjectPath: 'C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master'
+    },
+    'C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master': {
+      moduleName: 'avplayer-long-video-master',
+      modulePkgPath: 'C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master',
+      belongProjectPath: 'C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master'
+    }
+  },
+  pkgJsonFileHash: '7a7e8cc419851eab47b85d3eed7d92be705fdb1f2b03cd38b01b02ffb678e9d5',
+  allModulePaths: [ 'C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry' ],
+  routerMap: {},
+  obfuscationOptions: undefined,
+  byteCodeHarToDependencyKeys: undefined,
+  compileBlockPkg: [],
+  mockParams: {
+    decorator: '@MockSetup',
+    packageName: '@ohos/hamock',
+    etsSourceRootPath: 'src/main/ets',
+    mockConfigPath: undefined,
+    mockConfigKey2ModuleInfo: {},
+    source2ModuleIdMap: {}
+  },
+  copyCodeResourceEnable: true,
+  copyCodeResourceExcludes: [],
+  copyCodeResourceIncludes: undefined,
+  uiTransformOptimization: false,
+  sdkPath: 'C:/Program Files/Huawei/DevEco Studio.1/sdk',
+  needPreloadSoFileSet: {},
+  preloadSoFilePath: 'C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\build\\default\\intermediates\\preload\\default\\preload.json',
+  useSourceHash: false,
+  localModuleParamMap: {},
+  otherPaths: {
+    'entry/*': [
+      '..\\*',
+      '..\\..\\..\\build\\default\\generated\\profile\\default\\*'
+    ]
+  },
+  collectImportersConfig: undefined
+}
+[2026-05-12T17:45:57.186] [DEBUG] debug-file - Compile arkts with external api path: C:\Program Files\Huawei\DevEco Studio.1\sdk\default\hms\ets
+[2026-05-12T17:45:57.190] [DEBUG] debug-file - default@CompileArkTS work[0] is submitted.
+[2026-05-12T17:45:57.190] [DEBUG] debug-file - default@CompileArkTS work[0] is pushed to ready queue.
+[2026-05-12T17:45:57.191] [DEBUG] debug-file - A work dispatched to worker[23] failed because unable to get work from ready queue.
+[2026-05-12T17:45:57.191] [DEBUG] debug-file - A work dispatched to worker[22] failed because unable to get work from ready queue.
+[2026-05-12T17:45:57.191] [DEBUG] debug-file - A work dispatched to worker[21] failed because unable to get work from ready queue.
+[2026-05-12T17:45:57.191] [DEBUG] debug-file - A work dispatched to worker[20] failed because unable to get work from ready queue.
+[2026-05-12T17:45:57.191] [DEBUG] debug-file - A work dispatched to worker[19] failed because unable to get work from ready queue.
+[2026-05-12T17:45:57.191] [DEBUG] debug-file - A work dispatched to worker[18] failed because unable to get work from ready queue.
+[2026-05-12T17:45:57.191] [DEBUG] debug-file - A work dispatched to worker[17] failed because unable to get work from ready queue.
+[2026-05-12T17:45:57.191] [DEBUG] debug-file - A work dispatched to worker[16] failed because unable to get work from ready queue.
+[2026-05-12T17:45:57.191] [DEBUG] debug-file - A work dispatched to worker[15] failed because unable to get work from ready queue.
+[2026-05-12T17:45:57.191] [DEBUG] debug-file - A work dispatched to worker[14] failed because unable to get work from ready queue.
+[2026-05-12T17:45:57.191] [DEBUG] debug-file - A work dispatched to worker[13] failed because unable to get work from ready queue.
+[2026-05-12T17:45:57.191] [DEBUG] debug-file - A work dispatched to worker[12] failed because unable to get work from ready queue.
+[2026-05-12T17:45:57.191] [DEBUG] debug-file - A work dispatched to worker[11] failed because unable to get work from ready queue.
+[2026-05-12T17:45:57.191] [DEBUG] debug-file - A work dispatched to worker[10] failed because unable to get work from ready queue.
+[2026-05-12T17:45:57.191] [DEBUG] debug-file - A work dispatched to worker[9] failed because unable to get work from ready queue.
+[2026-05-12T17:45:57.191] [DEBUG] debug-file - A work dispatched to worker[8] failed because unable to get work from ready queue.
+[2026-05-12T17:45:57.192] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2026-05-12T17:45:57.192] [DEBUG] debug-file - A work dispatched to worker[6] failed because unable to get work from ready queue.
+[2026-05-12T17:45:57.192] [DEBUG] debug-file - A work dispatched to worker[5] failed because unable to get work from ready queue.
+[2026-05-12T17:45:57.192] [DEBUG] debug-file - Create  resident worker with id: 4.
+[2026-05-12T17:45:57.194] [DEBUG] debug-file - default@CompileArkTS work[0] has been dispatched to worker[4].
+[2026-05-12T17:45:57.194] [DEBUG] debug-file - default@CompileArkTS work[0] is dispatched.
+[2026-05-12T17:45:57.194] [DEBUG] debug-file - CopyResources startTime: 2414890622661400
+[2026-05-12T17:45:57.194] [DEBUG] debug-file - default@CompileArkTS work[1] is submitted.
+[2026-05-12T17:45:57.194] [DEBUG] debug-file - default@CompileArkTS work[1] is pushed to ready queue.
+[2026-05-12T17:45:57.194] [DEBUG] debug-file - A work dispatched to worker[23] failed because unable to get work from ready queue.
+[2026-05-12T17:45:57.194] [DEBUG] debug-file - Create  resident worker with id: 22.
+[2026-05-12T17:45:57.195] [DEBUG] debug-file - default@CompileArkTS work[1] has been dispatched to worker[22].
+[2026-05-12T17:45:57.196] [DEBUG] debug-file - default@CompileArkTS work[1] is dispatched.
+[2026-05-12T17:45:57.196] [DEBUG] debug-file - entry : default@CompileArkTS cost memory 1.4553680419921875
+[2026-05-12T17:45:57.198] [DEBUG] debug-file - Executing task :entry:default@BuildJS
+[2026-05-12T17:45:57.198] [DEBUG] debug-file - Task 'entry:default@BuildJS' cost while wrapping incremental declarations: 1 ms 
+[2026-05-12T17:45:57.204] [DEBUG] debug-file - entry : default@BuildJS cost memory 0.15671539306640625
+[2026-05-12T17:45:57.204] [DEBUG] debug-file - runTaskFromQueue task cost before running: 4 s 140 ms 
+[2026-05-12T17:45:57.205] [INFO] debug-file - Finished :entry:default@BuildJS... after 7 ms 
+[2026-05-12T17:45:57.206] [DEBUG] debug-file - Executing task :entry:default@CacheNativeLibs
+[2026-05-12T17:45:57.207] [DEBUG] debug-file - Task 'entry:default@CacheNativeLibs' cost while wrapping incremental declarations: 1 ms 
+[2026-05-12T17:45:57.207] [DEBUG] debug-file - default@CacheNativeLibs work[2] is submitted.
+[2026-05-12T17:45:57.208] [DEBUG] debug-file - default@CacheNativeLibs work[2] is pushed to ready queue.
+[2026-05-12T17:45:57.208] [DEBUG] debug-file - A work dispatched to worker[23] failed because unable to get work from ready queue.
+[2026-05-12T17:45:57.208] [DEBUG] debug-file - A work dispatched to worker[22] failed because of worker busy.
+[2026-05-12T17:45:57.208] [DEBUG] debug-file - Create  resident worker with id: 21.
+[2026-05-12T17:45:57.209] [DEBUG] debug-file - default@CacheNativeLibs work[2] has been dispatched to worker[21].
+[2026-05-12T17:45:57.209] [DEBUG] debug-file - default@CacheNativeLibs work[2] is dispatched.
+[2026-05-12T17:45:57.209] [DEBUG] debug-file - entry : default@CacheNativeLibs cost memory 0.15380859375
+[2026-05-12T17:45:58.828] [DEBUG] debug-file - worker[22] has one work done.
+[2026-05-12T17:45:58.829] [DEBUG] debug-file - CopyResources is end, endTime: 2414892257155100
+[2026-05-12T17:45:58.829] [DEBUG] debug-file - default@CompileArkTS work[1] done.
+[2026-05-12T17:45:58.829] [DEBUG] debug-file - A work dispatched to worker[22] failed because unable to get work from ready queue.
+[2026-05-12T17:45:58.964] [DEBUG] debug-file - worker[21] has one work done.
+[2026-05-12T17:45:58.965] [DEBUG] debug-file - default@CacheNativeLibs work[2] done.
+[2026-05-12T17:45:58.965] [DEBUG] debug-file - A work dispatched to worker[21] failed because unable to get work from ready queue.
+[2026-05-12T17:45:58.965] [INFO] debug-file - Finished :entry:default@CacheNativeLibs... after 10 ms 
+[2026-05-12T17:46:09.083] [DEBUG] debug-file - worker[4] has one work done.
+[2026-05-12T17:46:09.083] [DEBUG] debug-file - Ark compile task finished.finished time is 2414902511516600
+[2026-05-12T17:46:09.086] [DEBUG] debug-file - default@CompileArkTS work[0] done.
+[2026-05-12T17:46:09.086] [DEBUG] debug-file - A work dispatched to worker[4] failed because unable to get work from ready queue.
+[2026-05-12T17:46:09.089] [INFO] debug-file - Finished :entry:default@CompileArkTS... after 8 s 280 ms 
+[2026-05-12T17:46:09.091] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgModuleJson
+[2026-05-12T17:46:09.091] [DEBUG] debug-file - File: 'C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\preload\default\preload.json' from 'preloadSoJsonPath' is not exists, just ignore.
+[2026-05-12T17:46:09.092] [DEBUG] debug-file - Error occurs while handling @Input 'shouldDeduplicateHar': The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined
+[2026-05-12T17:46:09.092] [DEBUG] debug-file - Task 'entry:default@GeneratePkgModuleJson' cost while wrapping incremental declarations: 2 ms 
+[2026-05-12T17:46:09.095] [DEBUG] debug-file - entry : default@GeneratePkgModuleJson cost memory 0.1778411865234375
+[2026-05-12T17:46:09.095] [DEBUG] debug-file - runTaskFromQueue task cost before running: 16 s 31 ms 
+[2026-05-12T17:46:09.095] [INFO] debug-file - Finished :entry:default@GeneratePkgModuleJson... after 5 ms 
+[2026-05-12T17:46:09.096] [DEBUG] debug-file - Executing task :entry:default@ProcessCompiledResources
+[2026-05-12T17:46:09.097] [DEBUG] debug-file - File: 'C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\preload\default\preload.json' from 'preloadSoJsonPath' is not exists, just ignore.
+[2026-05-12T17:46:09.097] [DEBUG] debug-file - Task 'entry:default@ProcessCompiledResources' cost while wrapping incremental declarations: 1 ms 
+[2026-05-12T17:46:09.097] [DEBUG] debug-file - entry : default@ProcessCompiledResources cost memory 0.06345367431640625
+[2026-05-12T17:46:09.097] [DEBUG] debug-file - runTaskFromQueue task cost before running: 16 s 33 ms 
+[2026-05-12T17:46:09.097] [INFO] debug-file - Finished :entry:default@ProcessCompiledResources... after 1 ms 
+[2026-05-12T17:46:09.100] [DEBUG] debug-file - Executing task :entry:default@PackageHap
+[2026-05-12T17:46:09.107] [DEBUG] debug-file - Use tool [C:\Program Files\Huawei\DevEco Studio.1\sdk\default\openharmony\toolchains\lib\app_packing_tool.jar]
+ [
+  'java',
+  '-Dfile.encoding=GBK',
+  '-jar',
+  'C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\openharmony\\toolchains\\lib\\app_packing_tool.jar',
+  '--mode',
+  'hap',
+  '--force',
+  'true',
+  '--lib-path',
+  'C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\build\\default\\intermediates\\stripped_native_libs\\default',
+  '--json-path',
+  'C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\build\\default\\intermediates\\package\\default\\module.json',
+  '--resources-path',
+  'C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\build\\default\\intermediates\\res\\default\\resources',
+  '--index-path',
+  'C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\build\\default\\intermediates\\res\\default\\resources.index',
+  '--pack-info-path',
+  'C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\build\\default\\outputs\\default\\pack.info',
+  '--out-path',
+  'C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\build\\default\\outputs\\default\\entry-default-unsigned.hap',
+  '--ets-path',
+  'C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\build\\default\\intermediates\\loader_out\\default\\ets'
+]
+[2026-05-12T17:46:09.579] [DEBUG] debug-file - java daemon socket received message:{"code":0,"message":"pack success"}
+[2026-05-12T17:46:09.584] [DEBUG] debug-file - entry : default@PackageHap cost memory -4.3938751220703125
+[2026-05-12T17:46:09.585] [DEBUG] debug-file - runTaskFromQueue task cost before running: 16 s 520 ms 
+[2026-05-12T17:46:09.586] [INFO] debug-file - Finished :entry:default@PackageHap... after 485 ms 
+[2026-05-12T17:46:09.587] [DEBUG] debug-file - Executing task :entry:default@PackingCheck
+[2026-05-12T17:46:09.598] [DEBUG] debug-file - entry : default@PackingCheck cost memory 0.9268722534179688
+[2026-05-12T17:46:09.598] [DEBUG] debug-file - runTaskFromQueue task cost before running: 16 s 534 ms 
+[2026-05-12T17:46:09.598] [INFO] debug-file - Finished :entry:default@PackingCheck... after 11 ms 
+[2026-05-12T17:46:09.600] [DEBUG] debug-file - Executing task :entry:default@SignHap
+[2026-05-12T17:46:09.600] [WARN] debug-file - Will skip sign 'hos_hap'. No signingConfigs profile is configured in current project.
+             If needed, configure the signingConfigs in C:\Users\lenovo\Desktop\avplayer-long-video-master\build-profile.json5.
+[2026-05-12T17:46:09.602] [DEBUG] debug-file - entry : default@SignHap cost memory 0.056243896484375
+[2026-05-12T17:46:09.602] [DEBUG] debug-file - runTaskFromQueue task cost before running: 16 s 538 ms 
+[2026-05-12T17:46:09.602] [INFO] debug-file - Finished :entry:default@SignHap... after 3 ms 
+[2026-05-12T17:46:09.605] [DEBUG] debug-file - Executing task :entry:default@CollectDebugSymbol
+[2026-05-12T17:46:09.607] [DEBUG] debug-file - entry : default@CollectDebugSymbol cost memory 0.09816741943359375
+[2026-05-12T17:46:09.607] [DEBUG] debug-file - runTaskFromQueue task cost before running: 16 s 543 ms 
+[2026-05-12T17:46:09.607] [INFO] debug-file - Finished :entry:default@CollectDebugSymbol... after 2 ms 
+[2026-05-12T17:46:09.607] [DEBUG] debug-file - Executing task :entry:assembleHap
+[2026-05-12T17:46:09.607] [DEBUG] debug-file - entry : assembleHap cost memory 0.012786865234375
+[2026-05-12T17:46:09.607] [DEBUG] debug-file - runTaskFromQueue task cost before running: 16 s 543 ms 
+[2026-05-12T17:46:09.608] [INFO] debug-file - Finished :entry:assembleHap... after 1 ms 
+[2026-05-12T17:46:09.619] [INFO] debug-file - BUILD SUCCESSFUL in 16 s 555 ms 
+[2026-05-12T17:46:09.622] [DEBUG] debug-file - Update task entry:default@PreBuild input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\AppScope\app.json5 cache by regenerate.
+[2026-05-12T17:46:09.623] [DEBUG] debug-file - Update task entry:default@PreBuild input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\src\main\module.json5 cache by regenerate.
+[2026-05-12T17:46:09.623] [DEBUG] debug-file - Update task entry:default@PreBuild input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\build-profile.json5 cache by regenerate.
+[2026-05-12T17:46:09.624] [DEBUG] debug-file - Update task entry:default@PreBuild input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build-profile.json5 cache by regenerate.
+[2026-05-12T17:46:09.624] [DEBUG] debug-file - Update task entry:default@PreBuild input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\src\main\resources\base\profile\main_pages.json cache by regenerate.
+[2026-05-12T17:46:09.624] [DEBUG] debug-file - Update task entry:default@PreBuild input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\hvigor\hvigor-config.json5 cache by regenerate.
+[2026-05-12T17:46:09.625] [DEBUG] debug-file - Update task entry:default@PreBuild input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\oh-package.json5 cache by regenerate.
+[2026-05-12T17:46:09.625] [DEBUG] debug-file - Update task entry:default@PreBuild input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\oh-package.json5 cache by regenerate.
+[2026-05-12T17:46:09.625] [DEBUG] debug-file - Incremental task entry:default@PreBuild post-execution cost:6 ms .
+[2026-05-12T17:46:09.626] [DEBUG] debug-file - Update task entry:default@CreateModuleInfo output file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\generated\profile\default\ModuleInfo.ts cache.
+[2026-05-12T17:46:09.626] [DEBUG] debug-file - Incremental task entry:default@CreateModuleInfo post-execution cost:1 ms .
+[2026-05-12T17:46:09.626] [DEBUG] debug-file - Update task entry:default@GenerateMetadata input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\src\main\module.json5 cache by regenerate.
+[2026-05-12T17:46:09.627] [DEBUG] debug-file - Update task entry:default@GenerateMetadata output file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\hap_metadata\default\output_metadata.json cache.
+[2026-05-12T17:46:09.627] [DEBUG] debug-file - Incremental task entry:default@GenerateMetadata post-execution cost:1 ms .
+[2026-05-12T17:46:09.627] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\AppScope\app.json5 cache by regenerate.
+[2026-05-12T17:46:09.628] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\build-profile.json5 cache by regenerate.
+[2026-05-12T17:46:09.628] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\src\main\module.json5 cache by regenerate.
+[2026-05-12T17:46:09.628] [DEBUG] debug-file - Update task entry:default@MergeProfile output file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\merge_profile\default\module.json cache.
+[2026-05-12T17:46:09.629] [DEBUG] debug-file - Incremental task entry:default@MergeProfile post-execution cost:2 ms .
+[2026-05-12T17:46:09.629] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\AppScope\app.json5 cache by regenerate.
+[2026-05-12T17:46:09.630] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\build-profile.json5 cache by regenerate.
+[2026-05-12T17:46:09.630] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile output file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\generated\profile\default\BuildProfile.ets cache.
+[2026-05-12T17:46:09.631] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile post-execution cost:2 ms .
+[2026-05-12T17:46:09.631] [DEBUG] debug-file - Update task entry:default@GeneratePkgContextInfo output file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\loader\default\pkgContextInfo.json cache.
+[2026-05-12T17:46:09.632] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo post-execution cost:2 ms .
+[2026-05-12T17:46:09.632] [DEBUG] debug-file - Update task entry:default@ProcessIntegratedHsp output file:C:\Users\lenovo\Desktop\avplayer-long-video-master\build\cache\default\integrated_hsp\integratedHspCache.json cache.
+[2026-05-12T17:46:09.632] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp post-execution cost:1 ms .
+[2026-05-12T17:46:09.632] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\AppScope\app.json5 cache by regenerate.
+[2026-05-12T17:46:09.633] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\src\main\module.json5 cache by regenerate.
+[2026-05-12T17:46:09.633] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\build-profile.json5 cache by regenerate.
+[2026-05-12T17:46:09.634] [DEBUG] debug-file - Update task entry:default@MakePackInfo output file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\outputs\default\pack.info cache.
+[2026-05-12T17:46:09.634] [DEBUG] debug-file - Incremental task entry:default@MakePackInfo post-execution cost:2 ms .
+[2026-05-12T17:46:09.634] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:C:\Program Files\Huawei\DevEco Studio.1\sdk\default\openharmony\toolchains\syscap_tool.exe cache by regenerate.
+[2026-05-12T17:46:09.634] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:C:\Program Files\Huawei\DevEco Studio.1\sdk\default\openharmony\ets\api\device-define cache by regenerate.
+[2026-05-12T17:46:09.638] [DEBUG] debug-file - Update task entry:default@SyscapTransform output file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\syscap\default\rpcid.sc cache.
+[2026-05-12T17:46:09.639] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform post-execution cost:5 ms .
+[2026-05-12T17:46:09.639] [DEBUG] debug-file - Update task entry:default@ProcessProfile input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\merge_profile\default\module.json cache by regenerate.
+[2026-05-12T17:46:09.639] [DEBUG] debug-file - Update task entry:default@ProcessProfile output file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\process_profile\default\module.json cache.
+[2026-05-12T17:46:09.640] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile post-execution cost:1 ms .
+[2026-05-12T17:46:09.640] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\oh-package.json5 cache by regenerate.
+[2026-05-12T17:46:09.641] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\oh-package.json5 cache by regenerate.
+[2026-05-12T17:46:09.641] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\src\main\module.json5 cache by regenerate.
+[2026-05-12T17:46:09.641] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap output file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\router_map\default\temp-router-map.json cache.
+[2026-05-12T17:46:09.642] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap output file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\router_map\default\loader-router-map.json cache.
+[2026-05-12T17:46:09.642] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap post-execution cost:2 ms .
+[2026-05-12T17:46:09.642] [DEBUG] debug-file - Update task entry:default@ProcessShareConfig input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\oh-package.json5 cache by regenerate.
+[2026-05-12T17:46:09.643] [DEBUG] debug-file - Update task entry:default@ProcessShareConfig input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\oh-package.json5 cache by regenerate.
+[2026-05-12T17:46:09.643] [DEBUG] debug-file - Update task entry:default@ProcessShareConfig input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\src\main\module.json5 cache by regenerate.
+[2026-05-12T17:46:09.643] [DEBUG] debug-file - Update task entry:default@ProcessShareConfig output file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\share_config\default\temp-share-config.json cache.
+[2026-05-12T17:46:09.644] [DEBUG] debug-file - Incremental task entry:default@ProcessShareConfig post-execution cost:2 ms .
+[2026-05-12T17:46:09.644] [DEBUG] debug-file - Update task entry:default@ProcessStartupConfig output file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\startup\default\startup_config.json cache.
+[2026-05-12T17:46:09.644] [DEBUG] debug-file - Incremental task entry:default@ProcessStartupConfig post-execution cost:1 ms .
+[2026-05-12T17:46:09.644] [DEBUG] debug-file - Update task entry:default@ProcessResource output file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\res\default\resConfig.json cache.
+[2026-05-12T17:46:09.644] [DEBUG] debug-file - Update task entry:default@ProcessResource output file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\res\default\opt-compression.json cache.
+[2026-05-12T17:46:09.645] [DEBUG] debug-file - Incremental task entry:default@ProcessResource post-execution cost:1 ms .
+[2026-05-12T17:46:09.646] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\router_map\default\temp-router-map.json cache by regenerate.
+[2026-05-12T17:46:09.646] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson output file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\loader\default\loader.json cache.
+[2026-05-12T17:46:09.647] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson post-execution cost:2 ms .
+[2026-05-12T17:46:09.647] [DEBUG] debug-file - Update task entry:default@ProcessLibs input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\build-profile.json5 cache by regenerate.
+[2026-05-12T17:46:09.648] [DEBUG] debug-file - Update task entry:default@ProcessLibs input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build-profile.json5 cache by regenerate.
+[2026-05-12T17:46:09.648] [DEBUG] debug-file - Update task entry:default@ProcessLibs output file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\libs\default cache.
+[2026-05-12T17:46:09.648] [DEBUG] debug-file - Incremental task entry:default@ProcessLibs post-execution cost:2 ms .
+[2026-05-12T17:46:09.650] [DEBUG] debug-file - Update task entry:default@CompileResource input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\src\main\resources cache by regenerate.
+[2026-05-12T17:46:09.666] [DEBUG] debug-file - Update task entry:default@CompileResource input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\AppScope\resources cache by regenerate.
+[2026-05-12T17:46:09.668] [DEBUG] debug-file - Update task entry:default@CompileResource input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\process_profile\default\module.json cache by regenerate.
+[2026-05-12T17:46:09.668] [DEBUG] debug-file - Update task entry:default@CompileResource input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\res\default\resConfig.json cache by regenerate.
+[2026-05-12T17:46:09.669] [DEBUG] debug-file - Update task entry:default@CompileResource output file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\res\default cache.
+[2026-05-12T17:46:09.686] [DEBUG] debug-file - Update task entry:default@CompileResource output file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\generated\r\default\ResourceTable.h cache.
+[2026-05-12T17:46:09.687] [DEBUG] debug-file - Update task entry:default@CompileResource output file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\generated\r\default cache.
+[2026-05-12T17:46:09.687] [DEBUG] debug-file - Incremental task entry:default@CompileResource post-execution cost:39 ms .
+[2026-05-12T17:46:09.687] [DEBUG] debug-file - Update task entry:default@DoNativeStrip input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\libs\default cache by regenerate.
+[2026-05-12T17:46:09.688] [DEBUG] debug-file - Update task entry:default@DoNativeStrip output file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\stripped_native_libs\default cache.
+[2026-05-12T17:46:09.689] [DEBUG] debug-file - Incremental task entry:default@DoNativeStrip post-execution cost:2 ms .
+[2026-05-12T17:46:09.692] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\loader\default cache by regenerate.
+[2026-05-12T17:46:09.693] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\res\default\resources\rawfile cache by regenerate.
+[2026-05-12T17:46:09.695] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2026-05-12T17:46:09.695] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\res\default\ark_module.json cache by regenerate.
+[2026-05-12T17:46:09.695] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2026-05-12T17:46:09.696] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\src\main\ets cache by regenerate.
+[2026-05-12T17:46:09.703] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2026-05-12T17:46:09.703] [DEBUG] debug-file - Update task entry:default@CompileArkTS output file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\loader_out\default\ets cache.
+[2026-05-12T17:46:09.704] [DEBUG] debug-file - Incremental task entry:default@CompileArkTS post-execution cost:15 ms .
+[2026-05-12T17:46:09.706] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\loader\default cache by regenerate.
+[2026-05-12T17:46:09.707] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\res\default\resources\rawfile cache by regenerate.
+[2026-05-12T17:46:09.708] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2026-05-12T17:46:09.709] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\res\default\ark_module.json cache by regenerate.
+[2026-05-12T17:46:09.709] [DEBUG] debug-file - Update task entry:default@BuildJS input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2026-05-12T17:46:09.710] [DEBUG] debug-file - Update task entry:default@BuildJS output file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\loader_out\default\js cache.
+[2026-05-12T17:46:09.711] [DEBUG] debug-file - Incremental task entry:default@BuildJS post-execution cost:7 ms .
+[2026-05-12T17:46:09.711] [DEBUG] debug-file - Update task entry:default@CacheNativeLibs input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\stripped_native_libs\default cache by regenerate.
+[2026-05-12T17:46:09.712] [DEBUG] debug-file - Update task entry:default@CacheNativeLibs input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\libs\default cache by regenerate.
+[2026-05-12T17:46:09.712] [DEBUG] debug-file - Update task entry:default@CacheNativeLibs output file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\patch\default\base_native_libs.json cache.
+[2026-05-12T17:46:09.713] [DEBUG] debug-file - Incremental task entry:default@CacheNativeLibs post-execution cost:2 ms .
+[2026-05-12T17:46:09.713] [DEBUG] debug-file - Update task entry:default@GeneratePkgModuleJson input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2026-05-12T17:46:09.714] [DEBUG] debug-file - Update task entry:default@GeneratePkgModuleJson output file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\package\default\module.json cache.
+[2026-05-12T17:46:09.714] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgModuleJson post-execution cost:1 ms .
+[2026-05-12T17:46:09.714] [DEBUG] debug-file - Incremental task entry:default@ProcessCompiledResources post-execution cost:1 ms .
+[2026-05-12T17:46:09.716] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\stripped_native_libs\default cache by regenerate.
+[2026-05-12T17:46:09.716] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\res\default\module.json cache by regenerate.
+[2026-05-12T17:46:09.716] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\res\default\resources cache by regenerate.
+[2026-05-12T17:46:09.725] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\res\default\resources.index cache by regenerate.
+[2026-05-12T17:46:09.725] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\outputs\default\pack.info cache by regenerate.
+[2026-05-12T17:46:09.725] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\loader_out\default\ets cache by regenerate.
+[2026-05-12T17:46:09.726] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\loader_out\default\ets\sourceMaps.map cache by regenerate.
+[2026-05-12T17:46:09.726] [DEBUG] debug-file - Update task entry:default@PackageHap input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2026-05-12T17:46:09.727] [DEBUG] debug-file - Update task entry:default@PackageHap output file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\outputs\default\entry-default-unsigned.hap cache.
+[2026-05-12T17:46:09.727] [DEBUG] debug-file - Update task entry:default@PackageHap output file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\source_map\default\sourceMaps.map cache.
+[2026-05-12T17:46:09.728] [DEBUG] debug-file - Update task entry:default@PackageHap output file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\outputs\default\mapping\sourceMaps.map cache.
+[2026-05-12T17:46:09.728] [DEBUG] debug-file - Incremental task entry:default@PackageHap post-execution cost:14 ms .
+[2026-05-12T17:46:09.728] [DEBUG] debug-file - Update task entry:default@SignHap input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\outputs\default\entry-default-unsigned.hap cache by regenerate.
+[2026-05-12T17:46:09.729] [DEBUG] debug-file - Update task entry:default@SignHap output file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\outputs\default\entry-default-signed.hap cache.
+[2026-05-12T17:46:09.730] [DEBUG] debug-file - Incremental task entry:default@SignHap post-execution cost:2 ms .
+[2026-05-12T17:46:09.731] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\loader_out\default\ets\sourceMaps.map cache by regenerate.
+[2026-05-12T17:46:09.731] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol input file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\intermediates\libs\default cache by regenerate.
+[2026-05-12T17:46:09.732] [DEBUG] debug-file - Update task entry:default@CollectDebugSymbol output file:C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\build\default\outputs\default\symbol cache.
+[2026-05-12T17:46:09.732] [DEBUG] debug-file - Incremental task entry:default@CollectDebugSymbol post-execution cost:3 ms .
+[2026-05-12T17:46:09.764] [DEBUG] debug-file - Cleanup worker 0.
+[2026-05-12T17:46:09.765] [DEBUG] debug-file - Worker 0 has been cleaned up.
+[2026-05-12T17:46:09.765] [DEBUG] debug-file - Current idle worker size: 4.
+[2026-05-12T17:46:09.765] [DEBUG] debug-file - Current resident worker size: 5.
+[2026-05-12T17:46:09.765] [DEBUG] debug-file - Cleanup worker 1.
+[2026-05-12T17:46:09.765] [DEBUG] debug-file - Worker 1 has been cleaned up.
+[2026-05-12T17:46:09.765] [DEBUG] debug-file - Current idle worker size: 3.
+[2026-05-12T17:46:09.765] [DEBUG] debug-file - Current resident worker size: 5.
+[2026-05-12T17:46:09.765] [DEBUG] debug-file - Cleanup worker 22.
+[2026-05-12T17:46:09.765] [DEBUG] debug-file - Worker 22 has been cleaned up.
+[2026-05-12T17:46:09.766] [DEBUG] debug-file - Current idle worker size: 2.
+[2026-05-12T17:46:09.766] [DEBUG] debug-file - Current resident worker size: 5.
+[2026-05-12T17:46:09.766] [DEBUG] debug-file - Cleanup worker 21.
+[2026-05-12T17:46:09.766] [DEBUG] debug-file - Worker 21 has been cleaned up.
+[2026-05-12T17:46:09.766] [DEBUG] debug-file - Current idle worker size: 1.
+[2026-05-12T17:46:09.766] [DEBUG] debug-file - Current resident worker size: 5.
+[2026-05-12T17:46:09.769] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-05-12T17:46:09.770] [DEBUG] debug-file - session manager: send message to worker process.
+[2026-05-12T17:46:09.767] [DEBUG] debug-file - hvigor build process will be closed.
+[2026-05-12T17:46:09.769] [DEBUG] debug-file - java daemon socket close code:1000 reason:close by user
+[2026-05-12T17:46:09.771] [DEBUG] debug-file - worker[0] exits with exit code 1.
+[2026-05-12T17:46:09.771] [DEBUG] debug-file - worker[1] exits with exit code 1.
+[2026-05-12T17:46:09.772] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-05-12T17:46:09.772] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2026-05-12T17:46:09.774] [DEBUG] debug-file - worker[22] exits with exit code 1.
+[2026-05-12T17:46:09.775] [DEBUG] debug-file - worker[21] exits with exit code 1.

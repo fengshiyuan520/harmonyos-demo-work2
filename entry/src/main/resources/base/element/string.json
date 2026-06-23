@@ -215,6 +215,23 @@
     {
       "name": "online_video",
       "value": "online video: "
+    },
+
+    {
+      "name": "distributed_reason",
+      "value": "用于实现视频跨设备流转播放"
+    },
+    {
+      "name": "distributed_play",
+      "value": "流转播放"
+    },
+    {
+      "name": "distributed_stop",
+      "value": "停止流转"
+    },
+    {
+      "name": "no_device_found",
+      "value": "未发现可用设备"
     }
   ]
 }

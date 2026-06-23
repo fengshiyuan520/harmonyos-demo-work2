@@ -55,5 +55,26 @@
       }
     ],
     // [End SetPermissions]
-  }
+    // ... 其他配置
+    "requestPermissions": [
+      // ... 已有权限
+      {
+        "name": "ohos.permission.DISTRIBUTED_DEVICE_STATE_CHANGE",
+        "reason": "$string:distributed_reason"
+      },
+      {
+        "name": "ohos.permission.GET_DISTRIBUTED_DEVICE_INFO",
+        "reason": "$string:distributed_reason"
+      },
+      {
+        "name": "ohos.permission.DISTRIBUTED_DATA",
+        "reason": "$string:distributed_reason"
+      }
+    ],
+    "abilities": [
+      {
+        // ... 主Ability配置
+        "launchType": "multiSingleton",
+        "continuable": true  // 支持流转
+  },
 }

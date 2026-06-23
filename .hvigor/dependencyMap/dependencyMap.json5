@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"basePath":"C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\.hvigor\\dependencyMap\\dependencyMap.json5","rootDependency":"./oh-package.json5","dependencyMap":{"entry":"./entry/oh-package.json5"},"modules":[{"name":"entry","srcPath":"..\\..\\..\\entry"}]}
+=======
+{"basePath":"C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\.hvigor\\dependencyMap\\dependencyMap.json5","rootDependency":"./oh-package.json5","dependencyMap":{"entry":"./entry/oh-package.json5"},"modules":[{"name":"entry","srcPath":"..\\..\\..\\entry"}]}
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908

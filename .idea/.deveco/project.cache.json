@@ -9,7 +9,11 @@
 		"SELECT_BUILD_PRODUCT":"default",
 		"BUNDLE_NAME":"com.example.AVPlayerLongVideo",
 		"BUILD_PATH":{
+<<<<<<< HEAD
 			"OUTPUT_PATH":"C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\build\\outputs\\default"
+=======
+			"OUTPUT_PATH":"C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\build\\outputs\\default"
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908
 		},
 		"SELECT_BUILD_MODE":""
 	}

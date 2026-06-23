@@ -914,6 +914,7 @@ Warning: C:\Users\lenovo\Desktop\avplayer-long-video-master\entry\src\main\resou
 [2026-05-12T17:46:09.772] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
 [2026-05-12T17:46:09.774] [DEBUG] debug-file - worker[22] exits with exit code 1.
 [2026-05-12T17:46:09.775] [DEBUG] debug-file - worker[21] exits with exit code 1.
+<<<<<<< HEAD
 [2026-06-23T16:59:53.061] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
 [2026-06-23T16:59:53.728] [DEBUG] debug-file - Hvigor init with startParameters:{
   hvigorfileTypeCheck: false,
@@ -2544,3 +2545,5 @@ Require stack:
 [2026-06-23T18:39:02.708] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
 [2026-06-23T18:39:02.709] [DEBUG] debug-file - worker[1] exits with exit code 1.
 [2026-06-23T18:39:02.709] [DEBUG] debug-file - worker[0] exits with exit code 1.
+=======
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908

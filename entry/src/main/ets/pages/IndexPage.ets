@@ -23,8 +23,11 @@ import { WindowUtil } from '../common/utils/WindowUtil';
 import { CommonConstants } from '../common/constants/CommonConstants';
 import { VideoList } from '../view/VideoList';
 import { AVPlayer } from '../view/AVPlayer';
+<<<<<<< HEAD
 import mediaQuery from '@ohos.mediaquery';
 let screenListener = mediaQuery.matchMediaSync('(min-width:600vp)');
+=======
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908
 
 const TAG = '[IndexPage]';
 
@@ -39,7 +42,10 @@ struct IndexPage {
   @State showPopup: boolean = false; // Control pop-up display
   private swiperController: SwiperController = new SwiperController();
   private windowUtil: WindowUtil = WindowUtil.getInstance();
+<<<<<<< HEAD
   @State isLargeScreen: boolean = false;
+=======
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908
 
   async aboutToAppear(): Promise<void> {
     let context = this.getUIContext().getHostContext() as Context;
@@ -150,6 +156,7 @@ struct IndexPage {
   build() {
     Navigation(this.pageInfo) {
       Column() {
+<<<<<<< HEAD
         Text("AVPlayer长视频播放器")
           .fontSize(26)
           .margin({ bottom: 15 })
@@ -241,5 +248,115 @@ struct IndexPage {
         }
       }
     }
+=======
+        Stack() {
+          Swiper(this.swiperController) {
+            ForEach(this.sources, (item: VideoData, index: number) => {
+              Stack() {
+                AVPlayer({
+                  isFullLandscapeScreen: this.isFullLandscapeScreen,
+                  onFullScreenClick: (isLandscape?: boolean) => {
+                    if (isLandscape) {
+                      this.windowUtil.disableWindowSystemBar();
+                      this.windowUtil.setLandscapeMultiWindow(true);
+                      // [Start SetMainWindowLANDSCAPE]
+                      this.windowUtil.setMainWindowOrientation(window.Orientation.USER_ROTATION_LANDSCAPE);
+                      // [End SetMainWindowLANDSCAPE]
+                    } else {
+                      this.animateFullscreen();
+                    }
+                  },
+                  curSource: item,
+                  curIndex: this.currentIndex,
+                  index: index,
+                  isPageShow: this.isPageShow,
+                })
+              }
+            }, (item: string, index: number) => JSON.stringify(item) + index)
+          }
+          .width(CommonConstants.WIDTH_FULL_PERCENT)
+          .height(this.isFullLandscapeScreen ? CommonConstants.HEIGHT_FULL_PERCENT :
+            this.getUIContext().px2vp((AppStorage.get<number>('deviceWidth') || 0) / CommonConstants.ASPECT))
+          .vertical(true)
+          .loop(false)
+          .indicator(false)
+          .backgroundColor(Color.Black)
+          .onAnimationStart((_index: number, targetIndex: number) => {
+            this.currentIndex = targetIndex;
+          })
+          .onAnimationEnd(() => {
+          })
+
+          Button({ type: ButtonType.Circle }) {
+            Image($r('sys.media.ohos_ic_public_arrow_left'))
+              .fillColor(Color.White)
+              .width($r('app.float.size_24'))
+              .height($r('app.float.size_24'))
+          }
+          .width($r('app.float.button_back_size'))
+          .height($r('app.float.button_back_size'))
+          .backgroundColor('rgba(255,255,255,0.1)')
+          .position({
+            x: '2%',
+            y: $r('app.float.back_position_y')
+          })
+          .onClick(() => {
+            this.handleFullScreenExit();
+          })
+          .visibility(this.isFullLandscapeScreen ? Visibility.Visible : Visibility.Hidden)
+
+          Text(this.sources[this.currentIndex].name)
+            .fontColor(Color.White)
+            .fontWeight(FontWeight.Medium)
+            .fontSize($r('app.float.size_24'))
+            .position({
+              x: $r('app.float.size_64'),
+              y: $r('app.float.size_30')
+            })
+            .visibility(this.isFullLandscapeScreen ? Visibility.Visible : Visibility.Hidden)
+
+          Text() {
+            SymbolSpan($r('sys.symbol.dot_grid_2x2'))
+              .fontSize($r('app.float.size_25'))
+              .fontColor([Color.White])
+          }
+          .position({ x: '96%', y: $r('app.float.size_27') })
+          .markAnchor({ x: '100%', y: 0 })
+          .padding($r('app.float.size_10'))
+          .zIndex(1)
+          .borderRadius($r('app.float.size_25'))
+          .backgroundColor('rgba(255,255,255,0.1)')
+          .onClick(() => {
+            this.showPopup = !this.showPopup; // Click the button to switch the pop-up status
+          })
+          .bindSheet(this.showPopup, this.popupContent(), {
+            height: '170vp',
+            title: { title: $r('app.string.more') },
+            onDisappear: () => {
+              this.showPopup = false;
+            }
+          })
+          .visibility(this.isFullLandscapeScreen ? Visibility.Hidden : Visibility.Visible)
+        }
+
+        VideoList({
+          currentIndex: this.currentIndex,
+          sources: this.sources,
+          onItemClick: (index) => {
+            this.swiperController.changeIndex(index, false);
+            this.currentIndex = index;
+          }
+        })
+      }
+      .width(CommonConstants.WIDTH_FULL_PERCENT)
+      .height(CommonConstants.HEIGHT_FULL_PERCENT)
+    }
+    .mode(NavigationMode.Stack)
+    .hideToolBar(true)
+    .hideTitleBar(true)
+    .hideBackButton(true)
+    .width(CommonConstants.WIDTH_FULL_PERCENT)
+    .height(CommonConstants.HEIGHT_FULL_PERCENT)
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908
   }
 }

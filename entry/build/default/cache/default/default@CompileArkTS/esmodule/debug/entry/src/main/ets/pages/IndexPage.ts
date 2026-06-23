@@ -10,7 +10,10 @@ interface IndexPage_Params {
     showPopup?: boolean;
     swiperController?: SwiperController;
     windowUtil?: WindowUtil;
+<<<<<<< HEAD
     isLargeScreen?: boolean;
+=======
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908
 }
 import window from "@ohos:window";
 import hilog from "@ohos:hilog";
@@ -20,9 +23,14 @@ import { SOURCES } from "@bundle:com.example.AVPlayerLongVideo/entry/ets/model/V
 import type { VideoData } from '../model/VideoData';
 import { WindowUtil } from "@bundle:com.example.AVPlayerLongVideo/entry/ets/common/utils/WindowUtil";
 import { CommonConstants } from "@bundle:com.example.AVPlayerLongVideo/entry/ets/common/constants/CommonConstants";
+<<<<<<< HEAD
 import { AVPlayer } from "@bundle:com.example.AVPlayerLongVideo/entry/ets/view/AVPlayer";
 import mediaQuery from "@ohos:mediaquery";
 let screenListener = mediaQuery.matchMediaSync('(min-width:600vp)');
+=======
+import { VideoList } from "@bundle:com.example.AVPlayerLongVideo/entry/ets/view/VideoList";
+import { AVPlayer } from "@bundle:com.example.AVPlayerLongVideo/entry/ets/view/AVPlayer";
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908
 const TAG = '[IndexPage]';
 class IndexPage extends ViewPU {
     constructor(parent, params, __localStorage, elmtId = -1, paramsLambda = undefined, extraInfo) {
@@ -39,7 +47,10 @@ class IndexPage extends ViewPU {
         this.__showPopup = new ObservedPropertySimplePU(false, this, "showPopup");
         this.swiperController = new SwiperController();
         this.windowUtil = WindowUtil.getInstance();
+<<<<<<< HEAD
         this.__isLargeScreen = new ObservedPropertySimplePU(false, this, "isLargeScreen");
+=======
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908
         this.setInitiallyProvidedValue(params);
         this.finalizeConstruction();
     }
@@ -68,9 +79,12 @@ class IndexPage extends ViewPU {
         if (params.windowUtil !== undefined) {
             this.windowUtil = params.windowUtil;
         }
+<<<<<<< HEAD
         if (params.isLargeScreen !== undefined) {
             this.isLargeScreen = params.isLargeScreen;
         }
+=======
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908
     }
     updateStateVars(params: IndexPage_Params) {
     }
@@ -81,7 +95,10 @@ class IndexPage extends ViewPU {
         this.__currentIndex.purgeDependencyOnElmtId(rmElmtId);
         this.__isPageShow.purgeDependencyOnElmtId(rmElmtId);
         this.__showPopup.purgeDependencyOnElmtId(rmElmtId);
+<<<<<<< HEAD
         this.__isLargeScreen.purgeDependencyOnElmtId(rmElmtId);
+=======
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908
     }
     aboutToBeDeleted() {
         this.__pageInfo.aboutToBeDeleted();
@@ -90,7 +107,10 @@ class IndexPage extends ViewPU {
         this.__currentIndex.aboutToBeDeleted();
         this.__isPageShow.aboutToBeDeleted();
         this.__showPopup.aboutToBeDeleted();
+<<<<<<< HEAD
         this.__isLargeScreen.aboutToBeDeleted();
+=======
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908
         SubscriberManager.Get().delete(this.id__());
         this.aboutToBeDeletedInternal();
     }
@@ -138,6 +158,7 @@ class IndexPage extends ViewPU {
     }
     private swiperController: SwiperController;
     private windowUtil: WindowUtil;
+<<<<<<< HEAD
     private __isLargeScreen: ObservedPropertySimplePU<boolean>;
     get isLargeScreen() {
         return this.__isLargeScreen.get();
@@ -145,6 +166,8 @@ class IndexPage extends ViewPU {
     set isLargeScreen(newValue: boolean) {
         this.__isLargeScreen.set(newValue);
     }
+=======
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908
     async aboutToAppear(): Promise<void> {
         let context = this.getUIContext().getHostContext() as Context;
         try {
@@ -259,6 +282,7 @@ class IndexPage extends ViewPU {
     initialRender() {
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             Navigation.create(this.pageInfo, { moduleName: "entry", pagePath: "entry/src/main/ets/pages/IndexPage", isUserCreateStack: true });
+<<<<<<< HEAD
         }, Navigation);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             Column.create();
@@ -461,6 +485,201 @@ class IndexPage extends ViewPU {
             }
         }, If);
         If.pop();
+=======
+            Navigation.mode(NavigationMode.Stack);
+            Navigation.hideToolBar(true);
+            Navigation.hideTitleBar(true);
+            Navigation.hideBackButton(true);
+            Navigation.width(CommonConstants.WIDTH_FULL_PERCENT);
+            Navigation.height(CommonConstants.HEIGHT_FULL_PERCENT);
+        }, Navigation);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Column.create();
+            Column.width(CommonConstants.WIDTH_FULL_PERCENT);
+            Column.height(CommonConstants.HEIGHT_FULL_PERCENT);
+        }, Column);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Stack.create();
+        }, Stack);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Swiper.create(this.swiperController);
+            Swiper.width(CommonConstants.WIDTH_FULL_PERCENT);
+            Swiper.height(this.isFullLandscapeScreen ? CommonConstants.HEIGHT_FULL_PERCENT :
+                this.getUIContext().px2vp((AppStorage.get<number>('deviceWidth') || 0) / CommonConstants.ASPECT));
+            Swiper.vertical(true);
+            Swiper.loop(false);
+            Swiper.indicator(false);
+            Swiper.backgroundColor(Color.Black);
+            Swiper.onAnimationStart((_index: number, targetIndex: number) => {
+                this.currentIndex = targetIndex;
+            });
+            Swiper.onAnimationEnd(() => {
+            });
+        }, Swiper);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            ForEach.create();
+            const forEachItemGenFunction = (_item, index: number) => {
+                const item = _item;
+                this.observeComponentCreation2((elmtId, isInitialRender) => {
+                    Stack.create();
+                }, Stack);
+                {
+                    this.observeComponentCreation2((elmtId, isInitialRender) => {
+                        if (isInitialRender) {
+                            let componentCall = new AVPlayer(this, {
+                                isFullLandscapeScreen: this.isFullLandscapeScreen,
+                                onFullScreenClick: (isLandscape?: boolean) => {
+                                    if (isLandscape) {
+                                        this.windowUtil.disableWindowSystemBar();
+                                        this.windowUtil.setLandscapeMultiWindow(true);
+                                        // [Start SetMainWindowLANDSCAPE]
+                                        this.windowUtil.setMainWindowOrientation(window.Orientation.USER_ROTATION_LANDSCAPE);
+                                        // [End SetMainWindowLANDSCAPE]
+                                    }
+                                    else {
+                                        this.animateFullscreen();
+                                    }
+                                },
+                                curSource: item,
+                                curIndex: this.currentIndex,
+                                index: index,
+                                isPageShow: this.isPageShow,
+                            }, undefined, elmtId, () => { }, { page: "entry/src/main/ets/pages/IndexPage.ets", line: 154, col: 17 });
+                            ViewPU.create(componentCall);
+                            let paramsLambda = () => {
+                                return {
+                                    isFullLandscapeScreen: this.isFullLandscapeScreen,
+                                    onFullScreenClick: (isLandscape?: boolean) => {
+                                        if (isLandscape) {
+                                            this.windowUtil.disableWindowSystemBar();
+                                            this.windowUtil.setLandscapeMultiWindow(true);
+                                            // [Start SetMainWindowLANDSCAPE]
+                                            this.windowUtil.setMainWindowOrientation(window.Orientation.USER_ROTATION_LANDSCAPE);
+                                            // [End SetMainWindowLANDSCAPE]
+                                        }
+                                        else {
+                                            this.animateFullscreen();
+                                        }
+                                    },
+                                    curSource: item,
+                                    curIndex: this.currentIndex,
+                                    index: index,
+                                    isPageShow: this.isPageShow
+                                };
+                            };
+                            componentCall.paramsGenerator_ = paramsLambda;
+                        }
+                        else {
+                            this.updateStateVarsOfChildByElmtId(elmtId, {
+                                isFullLandscapeScreen: this.isFullLandscapeScreen,
+                                curSource: item,
+                                curIndex: this.currentIndex,
+                                index: index,
+                                isPageShow: this.isPageShow
+                            });
+                        }
+                    }, { name: "AVPlayer" });
+                }
+                Stack.pop();
+            };
+            this.forEachUpdateFunction(elmtId, this.sources, forEachItemGenFunction, (item: string, index: number) => JSON.stringify(item) + index, true, true);
+        }, ForEach);
+        ForEach.pop();
+        Swiper.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Button.createWithChild({ type: ButtonType.Circle });
+            Button.width({ "id": 16777301, "type": 10002, params: [], "bundleName": "com.example.AVPlayerLongVideo", "moduleName": "entry" });
+            Button.height({ "id": 16777301, "type": 10002, params: [], "bundleName": "com.example.AVPlayerLongVideo", "moduleName": "entry" });
+            Button.backgroundColor('rgba(255,255,255,0.1)');
+            Button.position({
+                x: '2%',
+                y: { "id": 16777298, "type": 10002, params: [], "bundleName": "com.example.AVPlayerLongVideo", "moduleName": "entry" }
+            });
+            Button.onClick(() => {
+                this.handleFullScreenExit();
+            });
+            Button.visibility(this.isFullLandscapeScreen ? Visibility.Visible : Visibility.Hidden);
+        }, Button);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Image.create({ "id": 125830087, "type": 20000, params: [], "bundleName": "com.example.AVPlayerLongVideo", "moduleName": "entry" });
+            Image.fillColor(Color.White);
+            Image.width({ "id": 16777350, "type": 10002, params: [], "bundleName": "com.example.AVPlayerLongVideo", "moduleName": "entry" });
+            Image.height({ "id": 16777350, "type": 10002, params: [], "bundleName": "com.example.AVPlayerLongVideo", "moduleName": "entry" });
+        }, Image);
+        Button.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Text.create(this.sources[this.currentIndex].name);
+            Text.fontColor(Color.White);
+            Text.fontWeight(FontWeight.Medium);
+            Text.fontSize({ "id": 16777350, "type": 10002, params: [], "bundleName": "com.example.AVPlayerLongVideo", "moduleName": "entry" });
+            Text.position({
+                x: { "id": 16777361, "type": 10002, params: [], "bundleName": "com.example.AVPlayerLongVideo", "moduleName": "entry" },
+                y: { "id": 16777353, "type": 10002, params: [], "bundleName": "com.example.AVPlayerLongVideo", "moduleName": "entry" }
+            });
+            Text.visibility(this.isFullLandscapeScreen ? Visibility.Visible : Visibility.Hidden);
+        }, Text);
+        Text.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Text.create();
+            Text.position({ x: '96%', y: { "id": 16777352, "type": 10002, params: [], "bundleName": "com.example.AVPlayerLongVideo", "moduleName": "entry" } });
+            Text.markAnchor({ x: '100%', y: 0 });
+            Text.padding({ "id": 16777344, "type": 10002, params: [], "bundleName": "com.example.AVPlayerLongVideo", "moduleName": "entry" });
+            Text.zIndex(1);
+            Text.borderRadius({ "id": 16777351, "type": 10002, params: [], "bundleName": "com.example.AVPlayerLongVideo", "moduleName": "entry" });
+            Text.backgroundColor('rgba(255,255,255,0.1)');
+            Text.onClick(() => {
+                this.showPopup = !this.showPopup; // Click the button to switch the pop-up status
+            });
+            Text.bindSheet(this.showPopup, { builder: () => {
+                    this.popupContent.call(this);
+                } }, {
+                height: '170vp',
+                title: { title: { "id": 16777239, "type": 10003, params: [], "bundleName": "com.example.AVPlayerLongVideo", "moduleName": "entry" } },
+                onDisappear: () => {
+                    this.showPopup = false;
+                }
+            });
+            Text.visibility(this.isFullLandscapeScreen ? Visibility.Hidden : Visibility.Visible);
+        }, Text);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            SymbolSpan.create({ "id": 125831714, "type": 40000, params: [], "bundleName": "com.example.AVPlayerLongVideo", "moduleName": "entry" });
+            SymbolSpan.fontSize({ "id": 16777351, "type": 10002, params: [], "bundleName": "com.example.AVPlayerLongVideo", "moduleName": "entry" });
+            SymbolSpan.fontColor([Color.White]);
+        }, SymbolSpan);
+        Text.pop();
+        Stack.pop();
+        {
+            this.observeComponentCreation2((elmtId, isInitialRender) => {
+                if (isInitialRender) {
+                    let componentCall = new VideoList(this, {
+                        currentIndex: this.__currentIndex,
+                        sources: this.sources,
+                        onItemClick: (index) => {
+                            this.swiperController.changeIndex(index, false);
+                            this.currentIndex = index;
+                        }
+                    }, undefined, elmtId, () => { }, { page: "entry/src/main/ets/pages/IndexPage.ets", line: 240, col: 9 });
+                    ViewPU.create(componentCall);
+                    let paramsLambda = () => {
+                        return {
+                            currentIndex: this.currentIndex,
+                            sources: this.sources,
+                            onItemClick: (index) => {
+                                this.swiperController.changeIndex(index, false);
+                                this.currentIndex = index;
+                            }
+                        };
+                    };
+                    componentCall.paramsGenerator_ = paramsLambda;
+                }
+                else {
+                    this.updateStateVarsOfChildByElmtId(elmtId, {
+                        sources: this.sources
+                    });
+                }
+            }, { name: "VideoList" });
+        }
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908
         Column.pop();
         Navigation.pop();
     }

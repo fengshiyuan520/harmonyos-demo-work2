@@ -2,6 +2,7 @@
   "version": 1,
   "ohos-module-entry": {
     "SELECT_TARGET": "default",
+<<<<<<< HEAD
     "MODULE_BUILD_DIR": "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\build",
     "TARGETS": {
       "default": {
@@ -22,6 +23,28 @@
           "MANIFEST_JSON": "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\build\\default\\intermediates\\manifest\\default",
           "OUTPUT_METADATA_JSON": "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json",
           "SOURCE_MAP_DIR": "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\build\\default\\intermediates\\source_map\\default"
+=======
+    "MODULE_BUILD_DIR": "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\build",
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main",
+        "RESOURCES_PATH": [
+          "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\build\\default\\outputs\\default",
+          "INTERMEDIA_PATH": "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\build\\default\\intermediates\\loader_out\\default",
+          "JS_LITE_ASSETS_PATH": "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\build\\default\\intermediates\\loader_out_lite\\default",
+          "RES_PATH": "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\build\\default\\intermediates\\res\\default",
+          "RES_PROFILE_PATH": "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\build\\default\\cache\\default\\default@CompileJS\\jsbundle",
+          "WORKER_LOADER": "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\build\\default\\intermediates\\loader\\default\\loader.json",
+          "MANIFEST_JSON": "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\build\\default\\intermediates\\manifest\\default",
+          "OUTPUT_METADATA_JSON": "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json",
+          "SOURCE_MAP_DIR": "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\build\\default\\intermediates\\source_map\\default"
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908
         },
         "BUILD_OPTION": {
           "debuggable": true
@@ -67,17 +90,29 @@
   },
   "ohos-project": {
     "SELECT_PRODUCT_NAME": "default",
+<<<<<<< HEAD
     "MODULE_BUILD_DIR": "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\build",
+=======
+    "MODULE_BUILD_DIR": "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\build",
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908
     "BUNDLE_NAME": "com.example.AVPlayerLongVideo",
     "VERSION_CODE": 1000000,
     "VERSION_NAME": "1.0.0",
     "BUILD_PATH": {
+<<<<<<< HEAD
       "OUTPUT_PATH": "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\build\\outputs\\default"
+=======
+      "OUTPUT_PATH": "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\build\\outputs\\default"
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908
     },
     "MODULES": [
       {
         "name": "entry",
+<<<<<<< HEAD
         "srcPath": "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry",
+=======
+        "srcPath": "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry",
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908
         "targets": [
           {
             "name": "default",
@@ -86,7 +121,11 @@
             ]
           }
         ],
+<<<<<<< HEAD
         "belongProjectPath": "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main"
+=======
+        "belongProjectPath": "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master"
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908
       }
     ],
     "PROFILE_OPT": {
@@ -131,7 +170,11 @@
       "hvigor.keepDependency": true
     },
     "OVERALL_PROJECT_PATHS": [
+<<<<<<< HEAD
       "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main"
+=======
+      "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master"
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908
     ],
     "BUILD_CACHE_DIR": ""
   }

@@ -15,8 +15,12 @@
       "parent": [
         "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets",
         "C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\openharmony\\ets\\api\\application\\UIAbilityContext.d.ts",
+<<<<<<< HEAD
         "C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.AbilityLifecycleCallback.d.ts",
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets"
+=======
+        "C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\openharmony\\ets\\api\\@ohos.app.ability.AbilityLifecycleCallback.d.ts"
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908
       ],
       "error": false
     },
@@ -30,6 +34,7 @@
         "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\ets\\common\\utils\\ImageUtil.ets",
         "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\ets\\view\\AVPlayer.ets",
         "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\ets\\model\\CaptionFontModel.ets",
+<<<<<<< HEAD
         "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\ets\\common\\utils\\Logger.ets",
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets",
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\common\\utils\\WindowUtil.ets",
@@ -38,6 +43,9 @@
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\view\\AVPlayer.ets",
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\model\\CaptionFontModel.ets",
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\common\\utils\\Logger.ets"
+=======
+        "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\ets\\common\\utils\\Logger.ets"
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908
       ],
       "error": false
     },
@@ -65,11 +73,15 @@
         "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\ets\\view\\AVPlayer.ets",
         "C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\folder_stack.d.ts",
         "C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\nav_destination.d.ts",
+<<<<<<< HEAD
         "C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\navigation.d.ts",
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets",
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\common\\utils\\WindowUtil.ets",
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\pages\\IndexPage.ets",
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\view\\AVPlayer.ets"
+=======
+        "C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\navigation.d.ts"
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908
       ],
       "error": false
     },
@@ -133,6 +145,7 @@
         "C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\openharmony\\ets\\api\\@ohos.web.webview.d.ts",
         "C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\openharmony\\ets\\api\\@ohos.security.cert.d.ts",
         "C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\openharmony\\ets\\api\\@ohos.security.cryptoFramework.d.ts",
+<<<<<<< HEAD
         "C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\openharmony\\ets\\api\\@ohos.print.d.ts",
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets",
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\common\\utils\\WindowUtil.ets",
@@ -140,6 +153,9 @@
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\controller\\AvPlayerController.ets",
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\controller\\AvSessionController.ets",
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\common\\utils\\BackgroundTaskManager.ets"
+=======
+        "C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\openharmony\\ets\\api\\@ohos.print.d.ts"
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908
       ],
       "error": false
     },
@@ -500,8 +516,12 @@
         "C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\openharmony\\ets\\api\\application\\UIAbilityContext.d.ts",
         "C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\openharmony\\ets\\api\\application\\ApplicationContext.d.ts",
         "C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\openharmony\\ets\\api\\application\\UIExtensionContext.d.ts",
+<<<<<<< HEAD
         "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\ets\\pages\\IndexPage.ets",
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\pages\\IndexPage.ets"
+=======
+        "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\ets\\pages\\IndexPage.ets"
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908
       ],
       "error": false
     },
@@ -550,11 +570,15 @@
         "C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\openharmony\\ets\\api\\notification\\notificationContent.d.ts",
         "C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\openharmony\\ets\\api\\notification\\notificationRequest.d.ts",
         "C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\common.d.ts",
+<<<<<<< HEAD
         "C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\openharmony\\ets\\api\\@ohos.web.webview.d.ts",
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\view\\VideoList.ets",
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\common\\utils\\ImageUtil.ets",
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\view\\AVPlayer.ets",
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\view\\VideoSnapshotView.ets"
+=======
+        "C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\openharmony\\ets\\api\\@ohos.web.webview.d.ts"
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908
       ],
       "error": false
     },
@@ -674,8 +698,12 @@
         "C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\openharmony\\ets\\api\\@ohos.base.d.ts"
       ],
       "parent": [
+<<<<<<< HEAD
         "C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.UIContext.d.ts",
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\pages\\IndexPage.ets"
+=======
+        "C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.UIContext.d.ts"
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908
       ],
       "error": false
     },
@@ -803,11 +831,15 @@
         "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\ets\\controller\\AvPlayerController.ets",
         "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\ets\\controller\\AvSessionController.ets",
         "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\ets\\common\\utils\\BackgroundTaskManager.ets",
+<<<<<<< HEAD
         "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\ets\\controller\\PipWindowController.ets",
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\controller\\AvPlayerController.ets",
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\controller\\AvSessionController.ets",
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\common\\utils\\BackgroundTaskManager.ets",
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\controller\\PipWindowController.ets"
+=======
+        "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\ets\\controller\\PipWindowController.ets"
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908
       ],
       "error": false
     },
@@ -1598,10 +1630,14 @@
       "parent": [
         "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\ets\\pages\\IndexPage.ets",
         "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
+<<<<<<< HEAD
         "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\ets\\controller\\AvPlayerController.ets",
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\pages\\IndexPage.ets",
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\common\\constants\\CommonConstants.ets",
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\controller\\AvPlayerController.ets"
+=======
+        "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\ets\\controller\\AvPlayerController.ets"
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908
       ],
       "error": false
     },
@@ -1736,10 +1772,14 @@
         "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\ets\\common\\utils\\ImageUtil.ets",
         "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\ets\\view\\AVPlayer.ets",
         "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\ets\\controller\\AvPlayerController.ets",
+<<<<<<< HEAD
         "C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\openharmony\\ets\\api\\@ohos.multimedia.avsession.d.ts",
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\common\\utils\\ImageUtil.ets",
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\view\\AVPlayer.ets",
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\controller\\AvPlayerController.ets"
+=======
+        "C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\openharmony\\ets\\api\\@ohos.multimedia.avsession.d.ts"
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908
       ],
       "error": false
     },
@@ -1752,8 +1792,12 @@
         "C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\openharmony\\ets\\api\\@ohos.multimedia.media.d.ts",
         "C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\openharmony\\ets\\api\\multimedia\\soundPool.d.ts",
         "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\ets\\controller\\AvPlayerController.ets",
+<<<<<<< HEAD
         "C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\openharmony\\ets\\api\\@ohos.multimedia.avsession.d.ts",
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\controller\\AvPlayerController.ets"
+=======
+        "C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\openharmony\\ets\\api\\@ohos.multimedia.avsession.d.ts"
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908
       ],
       "error": false
     },
@@ -1815,8 +1859,12 @@
         "C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\openharmony\\ets\\api\\@ohos.InputMethodSubtype.d.ts"
       ],
       "parent": [
+<<<<<<< HEAD
         "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\ets\\view\\AVPlayer.ets",
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\view\\AVPlayer.ets"
+=======
+        "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\ets\\view\\AVPlayer.ets"
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908
       ],
       "error": false
     },
@@ -1828,8 +1876,12 @@
         "C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\openharmony\\ets\\api\\application\\Context.d.ts"
       ],
       "parent": [
+<<<<<<< HEAD
         "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\ets\\view\\AVPlayer.ets",
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\view\\AVPlayer.ets"
+=======
+        "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\ets\\view\\AVPlayer.ets"
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908
       ],
       "error": false
     },
@@ -1972,8 +2024,12 @@
       "mtimeMs": 1774582692000,
       "children": [],
       "parent": [
+<<<<<<< HEAD
         "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\ets\\view\\VolumeAndBrightnessView.ets",
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\view\\VolumeAndBrightnessView.ets"
+=======
+        "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\ets\\view\\VolumeAndBrightnessView.ets"
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908
       ],
       "error": false
     },
@@ -1992,9 +2048,13 @@
       ],
       "parent": [
         "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\ets\\controller\\AvPlayerController.ets",
+<<<<<<< HEAD
         "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\ets\\controller\\AvSessionController.ets",
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\controller\\AvPlayerController.ets",
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\controller\\AvSessionController.ets"
+=======
+        "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\ets\\controller\\AvSessionController.ets"
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908
       ],
       "error": false
     },
@@ -2106,9 +2166,13 @@
       "parent": [
         "C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\openharmony\\ets\\api\\wantAgent\\wantAgentInfo.d.ts",
         "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\ets\\controller\\AvSessionController.ets",
+<<<<<<< HEAD
         "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\ets\\common\\utils\\BackgroundTaskManager.ets",
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\controller\\AvSessionController.ets",
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\common\\utils\\BackgroundTaskManager.ets"
+=======
+        "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\ets\\common\\utils\\BackgroundTaskManager.ets"
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908
       ],
       "error": false
     },
@@ -2151,8 +2215,12 @@
         "C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\openharmony\\ets\\api\\@ohos.notificationManager.d.ts"
       ],
       "parent": [
+<<<<<<< HEAD
         "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\ets\\common\\utils\\BackgroundTaskManager.ets",
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\common\\utils\\BackgroundTaskManager.ets"
+=======
+        "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\ets\\common\\utils\\BackgroundTaskManager.ets"
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908
       ],
       "error": false
     },
@@ -2300,8 +2368,12 @@
         "C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\openharmony\\ets\\api\\arkui\\FrameNode.d.ts"
       ],
       "parent": [
+<<<<<<< HEAD
         "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\ets\\controller\\PipWindowController.ets",
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\controller\\PipWindowController.ets"
+=======
+        "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\src\\main\\ets\\controller\\PipWindowController.ets"
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908
       ],
       "error": false
     },
@@ -2770,6 +2842,7 @@
         "C:\\Program Files\\Huawei\\DevEco Studio.1\\sdk\\default\\openharmony\\ets\\api\\@ohos.security.cert.d.ts"
       ],
       "error": false
+<<<<<<< HEAD
     },
     "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\common\\utils\\WindowUtil.ets": {
       "mtimeMs": 1779118484000,
@@ -3085,6 +3158,8 @@
         "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\src\\main\\ets\\controller\\AvSessionController.ets"
       ],
       "error": false
+=======
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908
     }
   }
 }

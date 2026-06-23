@@ -1,10 +1,18 @@
 {
   "modulePathMap": {
+<<<<<<< HEAD
     "entry": "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry"
   },
   "compileMode": "esmodule",
   "projectRootPath": "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main",
   "nodeModulesPath": "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\build\\default\\intermediates\\loader_out\\default\\node_modules",
+=======
+    "entry": "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry"
+  },
+  "compileMode": "esmodule",
+  "projectRootPath": "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master",
+  "nodeModulesPath": "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\build\\default\\intermediates\\loader_out\\default\\node_modules",
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908
   "byteCodeHarInfo": {},
   "declarationEntry": [],
   "moduleName": "entry",
@@ -18,9 +26,16 @@
   "hspResourcesMap": {},
   "updateVersionInfo": {},
   "customizedHar": false,
+<<<<<<< HEAD
   "anBuildOutPut": "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\build\\default\\intermediates\\loader_out\\default\\an\\arm64-v8a",
   "anBuildMode": "type",
   "patchConfig": {
     "changedFileList": "C:\\Users\\lenovo\\Desktop\\harmonyos-demo-work2-main\\entry\\build\\default\\intermediates\\patch\\default\\changedFileList.json"
+=======
+  "anBuildOutPut": "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\build\\default\\intermediates\\loader_out\\default\\an\\arm64-v8a",
+  "anBuildMode": "type",
+  "patchConfig": {
+    "changedFileList": "C:\\Users\\lenovo\\Desktop\\avplayer-long-video-master\\entry\\build\\default\\intermediates\\patch\\default\\changedFileList.json"
+>>>>>>> 468213a7e620fd123f2af47b52bc0f62d369c908
   }
 }
